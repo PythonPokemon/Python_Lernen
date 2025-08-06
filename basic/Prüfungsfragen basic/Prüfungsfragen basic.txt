@@ -1,0 +1,71 @@
+🎯 Prüfungsvorbereitung PCEP – Quizfragen (Basic)
+✅ Themenbereich: Syntax, Variablen, Operatoren, Funktionen, Datentypen
+
+❓ 1. Was bedeutet das Schlüsselwort def in Python?
+Antwort:
+def wird verwendet, um eine Funktion zu definieren.
+
+❓ 2. Was ist der Unterschied zwischen print() und return?
+Antwort:
+print() gibt etwas auf dem Bildschirm aus.
+return gibt einen Wert an den Aufrufer zurück, der weiterverwendet werden kann.
+
+❓ 3. Wie nennt man eine Variable, die innerhalb einer Funktion erstellt wird?
+Antwort:
+Eine lokale Variable.
+
+❓ 4. Wie nennt man eine Variable, die mit self gespeichert wird?
+Antwort:
+Ein Objektattribut oder Instanzvariable.
+
+❓ 5. Was passiert bei einer Division durch 0?
+Antwort:
+Es tritt ein Fehler (ZeroDivisionError) auf und das Programm stürzt ab, wenn kein Fehlerbehandler (try/except) vorhanden ist.
+
+❓ 6. Welche Funktion wird automatisch aufgerufen, wenn ein Objekt erstellt wird?
+Antwort:
+Die Methode __init__() → auch Konstruktor genannt.
+
+❓ 7. Was bedeutet self in einer Methode?
+Antwort:
+self verweist auf das eigene Objekt, um auf gespeicherte Attribute und Methoden zuzugreifen.
+
+❓ 8. Was bedeutet der Ausdruck if x == 5:?
+Antwort:
+Es wird geprüft, ob der Wert von x gleich 5 ist.
+(Achtung: == ist der Vergleichsoperator; = ist eine Zuweisung.)
+
+❓ 9. Was ist der Unterschied zwischen = und ==?
+Antwort:
+= ist eine Zuweisung (z.B. x = 5)
+== ist ein Vergleich (z.B. x == 5)
+
+❓ 10. Welche Datentypen sind in Python eingebaut?
+Antwort:
+int – ganze Zahl
+float – Kommazahl
+str – Zeichenkette
+bool – Wahrheitswert (True / False)
+list, tuple, dict, set – Container
+
+❓ 11. Was ist der Unterschied zwischen list und tuple?
+Antwort:
+list ist veränderbar (mutable)
+tuple ist unveränderbar (immutable)
+
+❓ 12. Was bewirkt input()?
+Antwort:
+Fragt eine Benutzereingabe ab und gibt sie als String zurück.
+
+❓ 13. Wie kann man auf einen bestimmten Index einer Liste zugreifen?
+Antwort:
+Mit eckigen Klammern, z. B. liste[0] für das erste Element.
+
+❓ 14. Wie definiert man eine Funktion mit zwei Parametern?
+Antwort:
+def begruessung(name, alter):
+    print("Hallo", name, "du bist", alter, "Jahre alt.")
+
+❓ 15. Wie kann man den Datentyp einer Variable überprüfen?
+Antwort:
+type(variable)
