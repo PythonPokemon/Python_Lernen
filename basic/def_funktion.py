@@ -1,7 +1,6 @@
-# 🔹 1. Was ist eine Funktion?
-# Eine Funktion ist ein „Befehlspaket“ – du kannst es aufrufen, und es führt Code aus.
+# Einfache Funktion ohne Parameter
+def begruessung():
+    print("Hallo, willkommen beim Python-Lernen!")
 
-def sag_hallo():
-    print("Hallo!")
-
-sag_hallo()  # Aufruf der Funktion
+# Funktionsaufruf
+begruessung()

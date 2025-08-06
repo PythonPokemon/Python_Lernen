@@ -6,3 +6,4 @@ class Tier:
 # Klassenaufruf
 mein_tier = Tier()
 mein_tier.mache_geraeusch()
+
