@@ -9,4 +9,4 @@ print(ord("A"))   # → 65 (ASCII)
 print(chr(9786))  # → ☺ (Unicode)
 
 # Escape-Sequenz: z. B. \n (neue Zeile), \t (Tab)
-print("Hallo\nWelt!")  # Zeilenumbruch
+print("Hallo\nWelt!")  # Zeilenumbruch..............
