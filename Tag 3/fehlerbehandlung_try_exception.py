@@ -17,7 +17,7 @@ Alle Fehler erben vom Typ BaseException.
 """
 try:
     liste = [1, 2, 3]
-    print(liste[5])  # IndexError
+    print(liste[5])  # IndexError, weil es keinen index 5 gibt
 except IndexError:
     print("Diese Position gibt es nicht!")
 
