@@ -1,0 +1,92 @@
+🎯 Prüfungsvorbereitung PCEP – Quizfragen (Tag 2)
+
+🔁 Schleifen, Sequenzen, Schleifen mit else, Verschachtelung von Schleifen, break, continue
+1. Was ist der Unterschied zwischen einer for-Schleife und einer while-Schleife?
+→ Eine for-Schleife läuft über eine feste Sequenz (z. B. eine Liste), eine while-Schleife läuft so lange, wie eine Bedingung True ist.
+
+2. Was macht die break-Anweisung in einer Schleife?
+→ Sie beendet die Schleife sofort – egal ob die Schleifenbedingung noch True ist oder nicht.
+
+3. Was bewirkt continue in einer Schleife?
+→ Es überspringt den aktuellen Schleifendurchlauf und springt direkt zur nächsten Iteration.
+
+4. Wann wird der else-Teil einer Schleife ausgeführt?
+→ Nur, wenn die Schleife normal endet (nicht durch break unterbrochen wurde).
+
+5. Was ist eine verschachtelte Schleife?
+→ Eine Schleife, die innerhalb einer anderen Schleife steht.
+
+📚 Listen und Tupel
+6. Was ist der Unterschied zwischen einer Liste und einem Tupel?
+→ Eine Liste (list) ist veränderbar (mutable), ein Tupel (tuple) ist unveränderbar (immutable).
+
+7. Wie erstellt man eine Liste in Python?
+→ Mit eckigen Klammern: meine_liste = [1, 2, 3]
+
+8. Wie greift man auf ein Element in einer Liste zu?
+→ Mit dem Index: meine_liste[0] gibt das erste Element zurück.
+
+9. Wie erstellt man ein Tupel?
+→ Mit runden Klammern: mein_tupel = (1, 2, 3)
+
+10. Kann man einem Tupel nachträglich ein Element hinzufügen?
+→ Nein, Tupel sind unveränderlich.
+
+🧠 List Comprehensions, Dictionaries, Strings
+11. Was ist eine List Comprehension?
+→ Eine Kurzform, um Listen zu erzeugen: [x * 2 for x in range(3)] ergibt [0, 2, 4].
+
+12. Was ist ein Dictionary?
+→ Eine Art Tabelle mit Schlüssel-Wert-Paaren: {"name": "Lisa", "alter": 25}
+
+13. Wie greift man auf einen Wert im Dictionary zu?
+→ Mit dem Schlüssel: person["name"] ergibt "Lisa".
+
+14. Was ist der Unterschied zwischen einer Liste und einem Dictionary?
+→ Liste speichert Werte in einer festen Reihenfolge, Dictionary speichert Paare aus Schlüssel und Wert – die Reihenfolge ist dabei nicht garantiert (ab Python 3.7 schon, aber für PCEP irrelevant).
+
+🔤 Eingebaute String-Methoden
+15. Was macht "abc".isalpha()?
+→ Prüft, ob alle Zeichen Buchstaben sind → gibt True zurück.
+
+16. Was macht "abc def".split()?
+→ Zerlegt den String bei Leerzeichen: ["abc", "def"].
+
+17. Was macht ",".join(["a", "b", "c"])?
+→ Verbindet die Liste mit Kommas: "a,b,c"
+
+18. Was ist der Unterschied zwischen sort() und sorted()?
+→ sort() ändert die Liste direkt, sorted() gibt eine neue sortierte Liste zurück.
+
+19. Was macht "Text".find("e")?
+→ Gibt den Index vom ersten Vorkommen von "e" zurück → z. B. 1.
+
+20. Was ist der Unterschied zwischen find() und rfind()?
+→ find() sucht von links, rfind() von rechts.
+
+🧮 Zeichenketten & Zeichenoperationen
+21. Was macht ord("A")?
+→ Gibt den Unicode-Wert (ASCII-Code) von "A" zurück → 65.
+
+22. Was macht chr(66)?
+→ Gibt das Zeichen zum Unicode-Wert 66 → "B".
+
+23. Was bedeutet "Strings sind immutable"?
+→ Strings können nicht verändert werden – man muss einen neuen String erstellen.
+
+24. Wie funktioniert Slicing bei Strings?
+→ text[0:3] gibt die ersten drei Zeichen zurück (Index 0, 1, 2).
+
+25. Was ist der Unterschied zwischen in und not in bei Strings?
+→ in prüft, ob ein Teilstring enthalten ist. Beispiel: "a" in "hallo" ist True.
+→ not in ist das Gegenteil.
+----------------------------------------------
+📝 Bonus: Mini-Wahr/Falsch-Fragen
+26. "abc"[1] == "b" → Wahr oder falsch?
+✅ Wahr
+
+27. "abc" * 2 ergibt "abcabc"?
+✅ Wahr
+
+28. 5 in [1, 2, 3, 4] → Wahr oder falsch?
+❌ Falsch

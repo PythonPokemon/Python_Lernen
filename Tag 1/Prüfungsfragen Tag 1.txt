@@ -1,0 +1,43 @@
+🎯 Prüfungsvorbereitung PCEP – Tag 1
+
+1. Was ist ein Compiler und was ist ein Interpreter?
+Ein Compiler übersetzt den gesamten Quellcode vor der Ausführung in Maschinensprache.
+Ein Interpreter liest und führt den Quellcode Zeile für Zeile direkt aus.
+
+2. Was bedeutet Einrückung in Python und warum ist sie wichtig?
+Einrückung bestimmt, welche Zeilen zu welchem Codeblock gehören (z. B. in Bedingungen oder Schleifen). Ohne korrekte Einrückung funktioniert der Code nicht und führt zu einem Fehler.
+
+3. Was ist ein Schlüsselwort (Keyword) in Python?
+Ein Schlüsselwort ist ein reserviertes Wort in Python, das eine besondere Bedeutung hat (z. B. if, while, def, return). Diese Wörter dürfen nicht als Variablennamen verwendet werden.
+
+4. Welche Zahlensysteme gibt es in Python und wozu werden sie gebraucht?
+Python unterstützt z. B. das Dezimalsystem (10er), Binärsystem (2er), Oktalsystem (8er) und Hexadezimalsystem (16er). Diese werden in der Informatik zur Darstellung von Zahlen auf Maschinenebene verwendet.
+
+5. Was ist der Zweck eines Kommentars im Code?
+Kommentare helfen dabei, den Code für Menschen verständlich zu machen. Sie werden von Python ignoriert und beginnen mit #.
+
+6. Welche Grunddatentypen gibt es in Python?
+int: ganze Zahl (z. B. 5)
+float: Kommazahl (z. B. 3.14)
+str: Zeichenkette/Text (z. B. "Hallo")
+bool: Wahrheitswert (True oder False)
+
+7. Was ist der Unterschied zwischen = und ==?
+= ist der Zuweisungsoperator (z. B. x = 5)
+== ist der Vergleichsoperator (z. B. x == 5 prüft, ob x gleich 5 ist)
+
+8. Wie liest man Eingaben vom Benutzer ein?
+Mit der Funktion input(). Sie gibt immer einen String zurück.
+
+9. Was ist eine bedingte Anweisung (if-Anweisung)?
+Damit kann man Bedingungen prüfen und entsprechend Code ausführen, z. B.:
+
+if alter >= 18:
+    print("Du bist volljährig.")
+
+10. Was ist eine verschachtelte Bedingung?
+Eine if-Anweisung innerhalb einer anderen if-Anweisung:
+
+if alter >= 18:
+    if land == "Deutschland":
+        print("Du darfst hier wählen.")
