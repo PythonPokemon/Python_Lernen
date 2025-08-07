@@ -13,8 +13,6 @@ Immutability (Unveränderbarkeit von Strings)
 | Index   | 0 | 1 | 2 | 3 | 4 | 5 |
 
 # J + Index 0 == P
-tetststststs
-ihijoi
 """
 
 sprache = "Python"
