@@ -1,0 +1,24 @@
+Die app.py ist ein kleines programm mit Python
+das ein backend Framework namens 'Flask' verwendet um eine lokale 
+schnittstelle zu einer webseite zu erstellen in 'HTML' um aufzuzeigen
+wie man mithilfe dieses Framework Datenaustauschen kann, beispielsweise mit 'JSON'!
+
+Die Webseite befindet sich im 'template' ordner
+                                  |-startseite.HTML
+
+1. Starten der webseite in app.py auf 'run' ganz normal ausführen
+anschließend wird in der konsole der lokale server angezeigt
+
+Bsp.
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 107-084-430
+127.0.0.1 - - [07/Aug/2025 11:22:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2025 11:23:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2025 11:23:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2025 11:23:56] "GET / HTTP/1.1" 200 -
+
+2. Aufrufen des Servers: http://127.0.0.1:5000 mit (Strg: Linker Mausklick)
