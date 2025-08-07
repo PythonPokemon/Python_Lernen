@@ -1,6 +1,6 @@
 Die app.py ist ein kleines programm mit Python
 das ein backend Framework namens 'Flask' verwendet um eine lokale 
-schnittstelle zu einer webseite zu erstellen in 'HTML' um aufzuzeigen
+schnittstelle zu einer webseite herzustellen in 'HTML' um aufzuzeigen
 wie man mithilfe dieses Framework Datenaustauschen kann, beispielsweise mit 'JSON'!
 
 Die Webseite befindet sich im ordner 'templates' 
