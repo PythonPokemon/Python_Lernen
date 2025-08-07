@@ -21,4 +21,5 @@ Press CTRL+C to quit
 127.0.0.1 - - [07/Aug/2025 11:23:41] "GET / HTTP/1.1" 200 -
 127.0.0.1 - - [07/Aug/2025 11:23:56] "GET / HTTP/1.1" 200 -
 
-2. Aufrufen des Servers: http://127.0.0.1:5000 mit (Strg: Linker Mausklick)
+2. Aufrufen des Servers in der Konsole:
+ http://127.0.0.1:5000 mit (Strg: Linker Mausklick)
