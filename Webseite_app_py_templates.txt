@@ -3,8 +3,8 @@ das ein backend Framework namens 'Flask' verwendet um eine lokale
 schnittstelle zu einer webseite zu erstellen in 'HTML' um aufzuzeigen
 wie man mithilfe dieses Framework Datenaustauschen kann, beispielsweise mit 'JSON'!
 
-Die Webseite befindet sich im 'template' ordner
-                                  |-startseite.HTML
+Die Webseite befindet sich im ordner 'templates' 
+                                        |-startseite.HTML
 
 1. Starten der webseite in app.py auf 'run' ganz normal ausführen
 anschließend wird in der konsole der lokale server angezeigt
