@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Meine Startseite</title>
+</head>
+<body>
+    <h1>Webseite</h1>
+    <button onclick="nachrichtHolen()">Nachricht abrufen</button>
+
+    <p id="anzeigeFeld">Hier erscheint die Nachricht...</p>
+
+    <script>
+        function nachrichtHolen() {
+            fetch("/nachricht")
+                .then(function(antwort) {
+                    return antwort.json();
+                })
+                .then(function(daten) {
+                    document.getElementById("anzeigeFeld").innerText = daten.motd;
+                })
+                .catch(function(fehler) {
+                    console.error("Fehler beim Abrufen der Nachricht:", fehler);
+                });
+        }
+    </script>
+</body>
+</html>

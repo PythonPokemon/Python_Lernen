@@ -5,7 +5,7 @@ Eine Funktion ist ein kleines Programm im Programm, das man mehrfach verwenden k
 # Bsp. 1
 # Wir definieren eine Funktion, die "Hallo!" sagt
 def sag_hallo():
-    print("Hallo!\n")
+    print("Hallo!")
 
 sag_hallo()  # Aufruf der Funktion
 

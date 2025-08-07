@@ -1,6 +1,7 @@
 🎯 Prüfungsvorbereitung PCEP – Quizfragen (Tag 2)
 
 🔁 Schleifen, Sequenzen, Schleifen mit else, Verschachtelung von Schleifen, break, continue
+
 1. Was ist der Unterschied zwischen einer for-Schleife und einer while-Schleife?
 → Eine for-Schleife läuft über eine feste Sequenz (z. B. eine Liste), eine while-Schleife läuft so lange, wie eine Bedingung True ist.
 
