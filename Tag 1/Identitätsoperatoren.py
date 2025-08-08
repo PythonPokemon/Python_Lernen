@@ -14,11 +14,18 @@ Aufgabe 4: Tiefergehendes Verständnis von Python-Optimierungen (Caching / Inter
 # --- Aufgabe 1 (Basis) --------------------------------------
 # Prüfe, ob zwei Variablen auf dasselbe Objekt zeigen
 a = [1, 2, 3]
-b = a
+b = a   # alles was in a ist, wird auch in b sein (Referenz auf dasselbe Objekt)
+
+# überprüfung der speicheradresse indem man das pbejkt aufruft!
+print(a)
+print(b)
+
 print("Aufgabe 1:")
 print(a is b)      # True – b ist nur eine andere Referenz auf dasselbe Objekt
-print(a is not b)  # False – sie sind identisch
-print()
+print(a is not b)  # False – weil a und b dasselbe Objekt sind
+print(b is a)
+
+print("\n")
 
 # --- Aufgabe 2 (leicht) -------------------------------------
 # Unterschied zwischen is und == prüfen
@@ -28,6 +35,7 @@ print("Aufgabe 2:")
 print(c == d)      # True – Werte sind gleich
 print(c is d)      # False – aber im Speicher zwei verschiedene Objekte
 print()
+print("\n")
 
 # --- Aufgabe 3 (mittel) -------------------------------------
 # Prüfen, ob None korrekt erkannt wird (Best Practice!)
@@ -38,6 +46,7 @@ if wert is None:
 else:
     print("Wert ist nicht None")
 print()
+print("\n")
 
 # --- Aufgabe 4 (schwer) -------------------------------------
 # Unterschied zwischen kleinen Zahlen, Strings und Listen bei Identität
