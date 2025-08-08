@@ -3,8 +3,7 @@
 Mehrere eindeutige zufällige Elemente aus einer Sequenz auswählen
 Funktion: random.sample()
 
-Frage?
-Geht das Modul random auch ohne die Funktion sample?
+
 """
 
 import random
