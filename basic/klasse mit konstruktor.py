@@ -27,8 +27,13 @@ class Hund:
     def info(self):
         print(f"Name: {self.name}, Rasse: {self.rasse}, Alter: {self.alter}")
 
-# aufrufen der Klasse
+# aufrufen der Objekts hund1 vom Typ Hund
 hund1 = Hund("Rex", "Labrador", 5)
 hund1.bellen()       # Rex bellt!
 hund1.info()         # Name: Rex, Rasse: Labrador, Alter: 5
 
+hund2 = Hund("Bella", "Beagle", 3)
+hund2.bellen()       # Bella bellt!
+
+print(hund1)     # gibt das Objekt selbst aus, nicht die Attribute
+print(hund2)     # gibt das Objekt selbst aus, nicht die Attribute
