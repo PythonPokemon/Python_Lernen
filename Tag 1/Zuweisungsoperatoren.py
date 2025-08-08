@@ -11,7 +11,7 @@ Aufgabe 3: Mehrere Variablen in Kombination - zeigt, dass Operatoren nicht nur m
 Aufgabe 4: Realistische Anwendung - hier merkst du, wie praktisch Zuweisungsoperatoren im Alltag sind.
 """
 x = 5
-print(x)
+print(x)  # Ausgabe: 5
 x += 2    # x = x + 2 → 7
 print(x)  # Ausgabe: 7
 x -= 1    # x = x - 1 → 6

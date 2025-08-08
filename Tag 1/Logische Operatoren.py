@@ -25,7 +25,7 @@ print()
 print("Aufgabe 2:")
 x = 10
 y = 5
-print(x > 0 and y > 0)   # True AND True → True
+print(x > 0 and y > 0)   # True AND True → True | 5 ist größer 0 und 10 ist größer 0
 print(x > 0 and y < 0)   # True AND False → False
 print(x < 0 or y > 0)    # False OR True → True
 print(not (x > y))       # NOT True → False

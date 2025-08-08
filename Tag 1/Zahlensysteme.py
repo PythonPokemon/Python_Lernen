@@ -7,3 +7,8 @@ okt = 0o12        # Oktalsystem (0o)
 hexadezimal = 0xA # Hexadezimalsystem (0x)
 
 print(dezimal, binär, okt, hexadezimal)
+
+print("Dezimal:", dezimal)
+print("Binär:", binär)
+print("Oktal:", okt)
+print("Hexadezimal:", hexadezimal)
