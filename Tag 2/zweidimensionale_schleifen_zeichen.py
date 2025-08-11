@@ -11,8 +11,8 @@ Von links nach rechts: Spaltenindex → innere Schleife (<j>) → Fächer
 """
 
 tiere = [
-    ["Hund", "Katze"],   # Regal 0
-    ["Maus", "Vogel"]    # Regal 1
+    ["Hund", "Katze"],   
+    ["Maus", "Vogel"]    
 ]
 
 for i in range(len(tiere)):            # äußere Schleife → Regale
