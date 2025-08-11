@@ -5,13 +5,16 @@ Ein Compiler übersetzt den gesamten Quellcode vor der Ausführung in Maschinens
 Ein Interpreter liest und führt den Quellcode Zeile für Zeile direkt aus.
 
 2. Was bedeutet Einrückung in Python und warum ist sie wichtig?
-Einrückung bestimmt, welche Zeilen zu welchem Codeblock gehören (z. B. in Bedingungen oder Schleifen). Ohne korrekte Einrückung funktioniert der Code nicht und führt zu einem Fehler.
+Einrückung bestimmt, welche Zeilen zu welchem Codeblock gehören (z. B. in Bedingungen oder Schleifen). 
+Ohne korrekte Einrückung funktioniert der Code nicht und führt zu einem Fehler.
 
 3. Was ist ein Schlüsselwort (Keyword) in Python?
-Ein Schlüsselwort ist ein reserviertes Wort in Python, das eine besondere Bedeutung hat (z. B. if, while, def, return). Diese Wörter dürfen nicht als Variablennamen verwendet werden.
+Ein Schlüsselwort ist ein reserviertes Wort in Python, das eine besondere Bedeutung hat (z. B. if, while, def, return). 
+Diese Wörter dürfen nicht als Variablennamen verwendet werden.
 
 4. Welche Zahlensysteme gibt es in Python und wozu werden sie gebraucht?
-Python unterstützt z. B. das Dezimalsystem (10er), Binärsystem (2er), Oktalsystem (8er) und Hexadezimalsystem (16er). Diese werden in der Informatik zur Darstellung von Zahlen auf Maschinenebene verwendet.
+Python unterstützt z. B. das Dezimalsystem (10er), Binärsystem (2er), Oktalsystem (8er) und Hexadezimalsystem (16er). 
+Diese werden in der Informatik zur Darstellung von Zahlen auf Maschinenebene verwendet.
 
 5. Was ist der Zweck eines Kommentars im Code?
 Kommentare helfen dabei, den Code für Menschen verständlich zu machen. Sie werden von Python ignoriert und beginnen mit #.
