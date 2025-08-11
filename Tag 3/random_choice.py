@@ -11,7 +11,7 @@ import random
 
 def zufaellige_auswahl():
     farben = ["rot", "blau", "grün", "gelb"]
-    auswahl = random.choice(farben)  # Zufälliges Element
+    auswahl = random.choice(farben)  # Zufälliges Element asuwählen
     print("Gewählte Farbe:", auswahl)
 
 # Testaufruf
