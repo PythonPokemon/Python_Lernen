@@ -1,0 +1,160 @@
+Agenda:
+Compiler vs Interpreter
+Schlüsselwörter und Einwückung
+Zahlensysteme, Konventionen
+Datentypen und Operationen
+Einfache Ein- und Ausgabe
+Bedingte Anweisungen
+----------------------------------------------------------------------------------------------------------------
+🖥 Compiler
+
+Ein Compiler übersetzt den gesamten Quellcode in Maschinencode (z. B. .exe, .class) bevor etwas ausgeführt wird.
+Beispiel: C, C++, Java (Java → Bytecode).
+
+Vorteil: schneller in der Ausführung, Fehler werden vorab erkannt.
+Nachteil: man muss den gesamten Code neu kompilieren, wenn sich etwas ändert.
+----------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
+
+
+🐍 Interpreter
+
+Ein Interpreter liest den Code und führt ihn direkt Zeile für Zeile aus.
+Beispiel: Python, JavaScript.
+
+Vorteil: sehr flexibel, man kann sofort Ergebnisse sehen.
+Nachteil: langsamer, Fehler fallen oft erst beim Ausführen der betroffenen Zeile auf.
+----------------------------------------------------------------------------------------------------------------
+-----------------
+--------------------------
+----------------------------------
+-----
+----------------------------------------------------------------------------------------------------------------
+# --- Datentypen ---
+ganzzahl = 42                  # int – ganze Zahl
+kommazahl = 3.14               # float – Kommazahl
+komplexe_zahl = 2 + 3j         # complex – komplexe Zahl mit Real- und Imaginärteil
+text = "Hallo Welt"            # str – Zeichenkette
+wahrheitswert = True           # bool – Wahr/Falsch
+liste = [1, 2, 3]              # list – veränderbare Liste
+tupel = (4, 5, 6)              # tuple – unveränderbare Liste
+menge = {1, 2, 3}              # set – Menge ohne Duplikate
+dictionary = {"a": 1, "b": 2}  # dict – Schlüssel/Wert-Paare
+nichts = None                  # NoneType – "kein Wert"
+
+# --- Objekttypen anzeigen ---
+print(type(ganzzahl))       # <class 'int'>
+print(type(kommazahl))      # <class 'float'>
+print(type(komplexe_zahl))  # <class 'complex'>
+print(type(text))           # <class 'str'>
+print(type(wahrheitswert))  # <class 'bool'>
+print(type(liste))          # <class 'list'>
+print(type(tupel))          # <class 'tuple'>
+print(type(menge))          # <class 'set'>
+print(type(dictionary))     # <class 'dict'>
+print(type(nichts))         # <class 'NoneType'>
+----------------------------------------------------------------------------------------------------------------
+Zahlensysteme, Konventionen
+
+# Kommentare beginnen mit #
+# Konvention: Variablennamen sollten sprechend und klein geschrieben werden (z. B. zahl_1 statt x1)
+
+dezimal = 10      # Dezimalsystem
+binär = 0b1010    # Binärsystem (0b)
+okt = 0o12        # Oktalsystem (0o)
+hexadezimal = 0xA # Hexadezimalsystem (0x)
+
+print(dezimal, binär, okt, hexadezimal)
+
+print("Dezimal:", dezimal)
+print("Binär:", binär)
+print("Oktal:", okt)
+print("Hexadezimal:", hexadezimal)
+----------------------------------------------------------------------------------------------------------------
+# logische_operatoren_aufgaben.py
+"""
+Thema: Logische Operatoren (and, or, not)
+Ziel: Verständnis, wie Wahrheitswerte kombiniert und geprüft werden.
+Operatoren: and (UND), or (ODER), not (NICHT)
+
+💡 Lernaufbau der Aufgaben:
+
+Aufgabe 1: Direkte logische Ausdrücke verstehen.
+Aufgabe 2: Erste Kombination von Vergleichsoperatoren mit logischen Operatoren.
+Aufgabe 3: Anwendung in einer if-Struktur mit einfachen Bedingungen.
+Aufgabe 4: Realistisches, verschachteltes Szenario, in dem mehrere Bedingungen gemeinsam geprüft werden.
+"""
+
+# --- Aufgabe 1 (Basis) --------------------------------------
+# Einfache logische Ausdrücke
+print("Aufgabe 1:")
+print(True and False)   # UND → False
+print(True or False)    # ODER → True
+print(not True)         # NICHT → False
+print()
+
+# --- Aufgabe 2 (leicht) -------------------------------------
+# Mehrere Bedingungen kombinieren
+print("Aufgabe 2:")
+x = 10
+y = 5
+print(x > 0 and y > 0)   # True AND True → True | 5 ist größer 0 und 10 ist größer 0
+print(x > 0 and y < 0)   # True AND False → False
+print(x < 0 or y > 0)    # False OR True → True
+print(not (x > y))       # NOT True → False
+print()
+
+# --- Aufgabe 3 (mittel) -------------------------------------
+# Logische Operatoren in einer if-Bedingung
+print("Aufgabe 3:")
+alter = 20
+ticket = True
+mitglied = False
+
+# Bedingung: Eintritt nur, wenn über 18 UND Ticket vorhanden
+if alter >= 18 and ticket:
+    print("Eintritt erlaubt")
+else:
+    print("Kein Eintritt")
+----------------------------------------------------------------------------------------------------------------
+Schlüsselwörter und Einrückung | Fallaufgabe zum nachmachen
+
+# 'if', 'else', 'def', 'for', 'while', 'class', 'try', 'except', 'finally',
+# 'return', 'import', 'from', 'as', 'with', 'lambda', 'and', 'or', 'not',
+# 'in', 'is', 'pass', 'break', 'continue', 'yield', 'global', 'nonlocal',
+# 'assert', 'del', 'raise', 'True', 'False', 'None' 
+
+# -> das sind Beispiele für Python-Schlüsselwörter.
+# WICHTIG: Einrückung ist in Python zwingend erforderlich, um Blöcke zu markieren.
+
+alter = 18
+
+if alter >= 18:                                 # 'if' ist ein Schlüsselwort -> Bedingung prüfen
+    print("Du bist volljährig.\n")              # eingerückt -> gehört zum if-Block
+else:                                           # 'else' ist ein Schlüsselwort -> Alternative
+    print("Du bist noch nicht volljährig.\n")   # eingerückt -> gehört zum else-Block
+
+----------------------------------------------------------------------------------------------------------------
+# Einfache Ein- und Ausgabe
+
+# Eingabe mit input(), Ausgabe mit print()
+name = input("Wie heißt du? ")  # Fragt den Benutzer nach einem Namen
+print("Hallo, " + name + "!")   # Begrüßt den Benutzer
+
+Aufgabe Geburtstagskarte:
+
+# 🎂 Geburtstagskarte – ganz einfach
+
+# Variablen
+name = "Anna"
+alter = "25"   # als Text, damit wir einfach mit + arbeiten können
+
+# Geburtstagskarte
+print("--- Geburtstagskarte ---")
+print("Alles Gute zum Geburtstag, " + name + "!")
+print("Herzlichen Glückwunsch zu deinem " + alter + ". Geburtstag!")
+print("Bleib gesund und hab einen tollen Tag! 🎉")
+
+----------------------------------------------------------------------------------------------------------------
