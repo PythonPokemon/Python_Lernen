@@ -7,8 +7,6 @@ Operatoren: +=, -=, *=, /=, //=, %=, **=
 
 Aufgabe 1: Einfache schrittweise Anwendung.
 Aufgabe 2: Alle Operatoren einmal durchspielen.
-Aufgabe 3: Mehrere Variablen in Kombination - zeigt, dass Operatoren nicht nur mit Konstanten funktionieren.
-Aufgabe 4: Realistische Anwendung - hier merkst du, wie praktisch Zuweisungsoperatoren im Alltag sind.
 """
 x = 5
 print(x)  # Ausgabe: 5
