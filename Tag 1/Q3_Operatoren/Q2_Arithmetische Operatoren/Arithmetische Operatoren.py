@@ -9,7 +9,7 @@ print(2 ** 3)   # Potenzieren → 8
 print("\n")
 # arithmetik_aufgaben.py
 
-# Aufgabe 1 (Einsteiger):
+# Aufgabe 1 (Einfach):
 # Schreibe ein Programm, das zwei Zahlen einliest und dann Addition, Subtraktion, Multiplikation und Division ausgibt.
 print("\n")
 print("Aufgabe 1 (Einsteiger):")
@@ -30,7 +30,7 @@ print("Ganzzahldivision:", zahl1 // zahl2, "(Ergebnis ohne Nachkommastellen)")
 print("Modulo:", zahl1 % zahl2, "(Rest bei der Division)")
 print("Potenz:", zahl1 ** zahl2, "(Ergebnis von zahl1 hoch zahl2)")
 
-# Aufgabe 3 (Fortgeschritten):
+# Aufgabe 3 (Schwer):
 # Schreibe eine Funktion, die aus zwei Zahlen und einem Operator (+, -, *, /, //, %, **) das Ergebnis berechnet.
 # Verwende eine if-elif-else-Struktur.
 # Teste die Funktion mit verschiedenen Operatoren.
