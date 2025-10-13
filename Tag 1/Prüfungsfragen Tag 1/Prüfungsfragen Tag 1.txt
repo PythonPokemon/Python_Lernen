@@ -25,7 +25,7 @@ float: Kommazahl (z. B. 3.14)
 str: Zeichenkette/Text (z. B. "Hallo")
 bool: Wahrheitswert (True oder False)
 
-7. Was ist der Unterschied zwischen = und ==?
+7. Was ist der Unterschied zwischen = und == ?
 = ist der Zuweisungsoperator (z. B. x = 5)
 == ist der Vergleichsoperator (z. B. x == 5 prüft, ob x gleich 5 ist)
 
