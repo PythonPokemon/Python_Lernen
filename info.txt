@@ -158,5 +158,5 @@ print("Herzlichen Glückwunsch zu deinem " + alter + ". Geburtstag!")
 print("Bleib gesund und hab einen tollen Tag! 🎉")
 
 ----------------------------------------------------------------------------------------------------------------
-erstell dazu: 'Verschachtelte bedienungung' einfache, mittlere, schwere, experten aufgaben für Anfänger zum lernen
+erstell dazu: 'Verschachtelte schleifen' einfache, mittlere, schwere, experten aufgaben für Anfänger zum lernen
 und damit sie sich auf den Python PCEP vorbereiten können:
