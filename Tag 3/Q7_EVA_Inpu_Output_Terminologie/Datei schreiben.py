@@ -1,5 +1,6 @@
 """ 
 7. Eingabe- & Ausgabe-Terminologie verstehen
+
 📌 Was ist Input/Output?
 Input: Der Benutzer gibt etwas ein (Tastatur, Datei, etc.)
 
