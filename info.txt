@@ -158,7 +158,7 @@ print("Herzlichen Glückwunsch zu deinem " + alter + ". Geburtstag!")
 print("Bleib gesund und hab einen tollen Tag! 🎉")
 
 ----------------------------------------------------------------------------------------------------------------
-erstell dazu: 'Weitergabe von Exceptions' einfache, mittlere, schwere, experten aufgaben für Anfänger zum lernen
+erstell dazu: 'Zeichenkodierung (ASCII, Unicode, UTF-8)' einfache, mittlere, schwere, experten aufgaben für Anfänger zum lernen
 und damit sie sich auf den Python PCEP vorbereiten können:
 ----------------------------------------------------------------------------------------------------------------
 zeige anhand eines einfachen Beispiels wie  man die Exception weitergeben kann in diesem Beispiel:
