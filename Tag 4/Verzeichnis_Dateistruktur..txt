@@ -6,8 +6,8 @@ Python_Lernen/
             Tag 3
             Tag 4/
                 │
-                ├── main.py
-                ├── mathe_funktionswerkzeug.py
+                ├── Q1_mathe_funktionswerkzeug.py
+                ├── Q4_main.py
                 ├── Verzeichnis_Dateistruktur.txt
                 └── Ziel.txt
             Tag 5
