@@ -5,8 +5,6 @@
 """
 
 
-
-
 # ✅ Lösung: Code korrekt schreiben
-if True:
+if False:
     print("Hallo")

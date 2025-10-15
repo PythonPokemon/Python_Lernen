@@ -10,7 +10,7 @@
         So kann sie weiter oben im Programm oder vom Interpreter behandelt werden.
 """
 
-#import nicht_existierend  
+
 
 try:
     import nicht_existierend
