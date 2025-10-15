@@ -1,6 +1,10 @@
 Tag 5: 
 
-PCEP-Prüfung ablegen – Hinweise
+--- Edube Interactive ----
+    --> durch alle Module durcharbeiten, wiederholen!
+    
+PCEP-Prüfung ablegen – Hinweise!
+
 Trainiere mit vielen kleinen Codebeispielen.
 Achte auf Syntax, Datentypen, Fehlermeldungen.
 Verstehe statt Auswendiglernen.
