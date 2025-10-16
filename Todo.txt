@@ -1,15 +1,16 @@
-
+PCEP
+https://pythoninstitute.org/pcep-exam-syllabus
 ----------------------------------------------------------------------------------------------------------------
-erstell dazu: 'Zeichenkodierung (ASCII, Unicode, UTF-8)' einfache, mittlere, schwere, experten aufgaben für Anfänger zum lernen
-und damit sie sich auf den Python PCEP vorbereiten können:
+Promts:
+erstell dazu: '.split()' einfache, mittlere, schwere, experten aufgaben für Anfänger zum lernen
+und damit sie sich auf den Python PCEP vorbereiten können: bsp:
 ----------------------------------------------------------------------------------------------------------------
 zeige anhand eines einfachen Beispiels wie  man die Exception weitergeben kann in diesem Beispiel:
 ----------------------------------------------------------------------------------------------------------------
-
 To do:
 
 ab Tag 2
-Q4: einfache, mittlere, schwere, experten aufgaben erstellen in die ordner!
+Q4.4_sort(): einfache, mittlere, schwere, experten aufgaben erstellen in die ordner!
 Q5: einfache, mittlere, schwere, experten aufgaben erstellen in die ordner!
 ----------------------------------------------------------------------------------------------------------------
-Aufgaben zum trainieren, nach Tag sortiert, im Jupiter Notebook!
+
