@@ -5,7 +5,7 @@ Beispiel: sorted() - Gibt eine neue sortierte Liste zurück (Original bleibt erh
 def erstes_e_vorkommen_finden():
 
     text = "Regenschauer"
-    position = text.find("e")  # liefert den ersten Fund (von links nach rechts)
+    position = text.index  # liefert den ersten Fund (von links nach rechts)
     print("erstes 'e' bei Index:", position)    # 1
 
 erstes_e_vorkommen_finden() # Methodenaufruf
