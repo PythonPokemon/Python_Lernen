@@ -1,7 +1,7 @@
 """ 
 Beispiel: .sort() - Liste in-place sortieren (verändert die Original-Liste)
 
- .sort() sortiert nur an Listen-Objekten
+ .sort() sortiert nur an Listen-Objekten..
 """
 
 def liste_sortieren():
