@@ -1,7 +1,8 @@
-def neue_LIste_sortieren():
-    zahlen = [1, 4, 2, 8, 3, 7, 10]
-    sortier_zahlen = sorted(zahlen)
-
-    print("Ausgabe der Zahlen: ", sortier_zahlen)
-
-neue_LIste_sortieren()
+data = [4, 2, 3, 2, 1]
+res = data[0]
+ 
+for d in data:
+    if d < res:
+        res = d
+ 
+print(res)

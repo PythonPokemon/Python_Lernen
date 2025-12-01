@@ -7,6 +7,7 @@
 
 
 
-# ✅ Lösung: Code korrekt schreiben
-if True:
-    print("Hallo")
+try:
+    print("Hallo)
+except SyntaxError:
+    print("du hast leider die doppelten anfüfungszeichen am ende vergessen")
