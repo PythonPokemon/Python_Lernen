@@ -25,7 +25,7 @@ print(type(tupel))              # <class 'tuple'>
 print(type(menge))              # <class 'set'>
 print(type(dictionary))         # <class 'dict'>
 print(type(nichts))             # <class 'NoneType'>
-print("\n")
+print("\n")                     # zeilenumbruch
 
 # teste das!
 print("ab hier beginnt die Praxis:-)")
