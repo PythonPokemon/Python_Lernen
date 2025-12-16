@@ -10,3 +10,7 @@ print(R"I\'m R2D2") # Raw String | Das R sagt Python: „Nichts escapen, alles r
 
 print("abc", end="")            # 'end' == kein zeilenumbruch, nachdem print befehl!
 print("defg", "hijk", sep="-")  # 'sep' == zwischen den strings, separate zeichen!
+
+# f string == formated string
+distance = 234
+print(f"die strecke ist {distance}km lang.")
