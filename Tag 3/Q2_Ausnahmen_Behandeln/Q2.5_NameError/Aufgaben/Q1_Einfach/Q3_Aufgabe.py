@@ -2,7 +2,8 @@
 🟢 2. Einfache Aufgabe
 Aufgabe (einfach)
 
-
+Schreibe ein Programm, das versucht, eine nicht existierende Variable auszugeben.
+Falls die Variable nicht definiert wurde, soll eine freundliche Fehlermeldung erscheinen.
 
 Beispiel Vorlage try / except:
 ---------------------------------------------------
