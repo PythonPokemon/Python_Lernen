@@ -4,10 +4,10 @@
 
 
 try:
-    zahlen = [10, 20, 30]
-    index = 5             # gültig wären nur: 0, 1, 2
+    personen = {"vorname": "Julia", "stadt": "Berlin"}
+    schluessel = "alter"       # gültig wären nur: 'vorname', 'stadt'
 
-    print(zahlen[index])  # führt zu IndexError
+    print(personen[schluessel])
 
-except IndexError:
-    print("❌ Fehler: Dieser Listenindex existiert nicht!")
+except KeyError:
+    print("❌ Fehler: Dieser Schlüssel existiert nicht im Dictionary!")

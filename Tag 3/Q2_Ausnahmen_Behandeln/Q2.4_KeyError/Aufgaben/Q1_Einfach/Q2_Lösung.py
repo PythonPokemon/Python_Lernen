@@ -4,7 +4,7 @@
 
 
 try:
-    liste = [1, 2, 3]
-    print(liste[3])     # teste 0, 1, 2 | Index 3 existiert nicht
-except IndexError:
-    print("❌ Fehler: Dieser Listenindex existiert nicht!")
+    daten = {"name": "Max", "alter": 25}
+    print(daten["stadt"])   # teste 'name' oder 'alter' | 'stadt' existiert nicht
+except KeyError:
+    print("❌ Fehler: Dieser Schlüssel existiert nicht im Dictionary!")

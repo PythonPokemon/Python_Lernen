@@ -2,8 +2,7 @@
 🟢 1. Einfache Aufgabe
 Aufgabe (einfach)
 
-Schreibe ein Programm, das ein Dictionary enthält und versucht, einen falschen Schlüssel auszulesen.
-Falls der Schlüssel nicht existiert, soll eine freundliche Fehlermeldung erscheinen.
+
 
 Beispiel Vorlage try / except:
 ---------------------------------------------------

@@ -5,10 +5,10 @@
 
 
 try:
-    liste = ["Apfel", "Banane", "Kirsche"]
-    index = int(input("Gib einen Index ein: "))
+    daten = {"tier": "Hund", "farbe": "Braun"}
+    schluessel = input("Gib einen Schlüssel ein: ")
 
-    print(liste[index])
+    print(daten[schluessel])
 
-except IndexError:
-    print("❌ Fehler: Dieser Listenindex existiert nicht!")
+except KeyError:
+    print("❌ Fehler: Dieser Schlüssel existiert nicht im Dictionary!")

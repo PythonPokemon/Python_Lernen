@@ -2,8 +2,7 @@
 🟢 2. Einfache Aufgabe
 Aufgabe (einfach)
 
-Schreibe ein Programm, das ein Dictionary und eine Variable enthält, die den gewünschten Schlüssel vorgibt.
-Wird ein Schlüssel verwendet, der im Dictionary nicht existiert, soll eine freundliche Fehlermeldung erscheinen.
+
 
 Beispiel Vorlage try / except:
 ---------------------------------------------------
