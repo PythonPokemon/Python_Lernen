@@ -1,14 +1,16 @@
 """
 Versuch jetzt dein gelerntes wissen abzufragen indem du jede exception 1x triggerst
-
+schreibe deine notizen bei den lösungen auf :-)
+-----------------------------------------------------------------------------------
 Lösung:
 
+-----------------------------------------------------------------------------------
 """
 
 try:
-    print()
+    print()    # hier testen:-)
 
-except ValueError:  
+except ValueError:
     print("❌ ValueError: Ungültiger Zahlenwert!")
 
 except TypeError:
@@ -20,5 +22,20 @@ except ZeroDivisionError:
 except SyntaxError:
     print("❌ SyntaxError: Der Ausdruck enthält einen Schreibfehler!")
 
-except Exception as e:
-    print("⚠️ Ein anderer Fehler ist aufgetreten:", type(e).__name__)
+except AttributeError:
+    print("❌ AttributeError:")
+
+except KeyError:
+    print("❌ KeyError: key existiert nicht, sondern [1] oder [2]")
+
+except NameError:
+     print("❌ NameError: die variable existiert nicht == evtl. hier ausgegraut!")
+
+except IndexError:
+    print("❌ IndexError: index 5 existiert nicht, die Indizes sind jeweils von: 0...4")
+
+except ImportError:
+    print("❌ Fehler: Dieses Modul konnte nicht importiert werden!")
+
+except BaseException as e:
+    print("⚠️  Allgemeine Fehlerbehandlung: Ein anderer Fehler ist aufgetreten, der hier nicht definiert wurde:", type(e).__name__)

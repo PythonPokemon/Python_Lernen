@@ -4,7 +4,7 @@ die beschreibungen sind teilweise kontextbezogen zu dieser aufgabe!
 
 zum testen in den print() befehl einsetzten Lösung:
 -------------------------------------------------------------------------------------
-Fehlerklassen       | in den print  |               beschreibung                    |
+Fehlerklassen       |   im print()  |               beschreibung                    |
 -------------------------------------------------------------------------------------
 ValueError:         |   int("abc")  |   "abc" kann nicht in int umgewandelt werden  |
 -------------------------------------------------------------------------------------
@@ -14,7 +14,7 @@ ZeroDivisionError:  |   10 / 0      |   Division durch Null nicht erlaubt       
 -------------------------------------------------------------------------------------
 SyntaxError:        | print(""      |   ungültiger Python-Ausdruck                  |
 -------------------------------------------------------------------------------------
-AttributeError:     |
+AttributeError:     | var.append()  |   bei ungültigem functions aufruf             |
 -------------------------------------------------------------------------------------
 KeyError:           | dictionary[3] |   key existiert nicht, sondern [1] und [2]    |
 -------------------------------------------------------------------------------------
@@ -32,10 +32,11 @@ Exception as e:     | keine speziele|   wenn eine spezielle klasse fehlt!       
 
 dictionary = { 1 : "eins", 2 : 3 }
 liste = [1, 2, 3, 4, 5]
-#var = "variable"
+var = "variable"
+
 
 try:
-    import aaa    # hier testen:-)
+    print()    # hier testen:-)
 
 except ValueError:
     print("❌ ValueError: Ungültiger Zahlenwert!")

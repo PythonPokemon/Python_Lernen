@@ -2,7 +2,8 @@
 🟢 1. Einfache Aufgabe
 Aufgabe (einfach)
 
-Schreibe ein Programm, das einen einfachen String verwendet und versucht, ein nicht existierendes Attribut aufzurufen.
+Schreibe ein Programm, das einen einfachen String verwendet und versucht, ein nicht existierendes 
+Attribut oder function aufzurufen.
 
 Beispiel:
 Ein String besitzt keine Methode .append().
