@@ -6,14 +6,15 @@ Schreibe ein Programm, das den Benutzer nach zwei Zahlen fragt (Benutzereingaben
 Falls der Benutzer als zweite Zahl 0 eingibt, soll eine freundliche Fehlermeldung erscheinen.
 
 👉 Verwende try / except.
-
-Beispiel Vorlage:
----------------------------------------------------
-try:
-    #code
-except #fehlerklasse:
-    #code
----------------------------------------------------
 """
 
 
+try:
+    a = int(input("Gib eine Zahl ein: "))
+    b = int(input("Gib eine zweite Zahl ein: "))
+
+    ergebnis = a / b
+    print("Ergebnis:", ergebnis)
+
+except ZeroDivisionError:
+    print("❌ Fehler: Durch Null darf man nicht teilen!")

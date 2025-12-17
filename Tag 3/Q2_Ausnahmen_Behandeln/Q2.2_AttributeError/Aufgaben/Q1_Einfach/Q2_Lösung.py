@@ -8,14 +8,10 @@ Operation: 10 / 0
 Da die Division durch 0 nicht erlaubt ist, soll eine freundliche Fehlermeldung ausgegeben werden.
 
 👉 Verwende try / except zum Abfangen des Fehlers.
-
-Beispiel Vorlage:
----------------------------------------------------
-try:
-    #code
-except #fehlerklasse:
-    #code
----------------------------------------------------
 """
 
 
+try:
+    print(10/0)
+except ZeroDivisionError:
+    print("❌ Fehler: Durch Null darf man nicht teilen!")
