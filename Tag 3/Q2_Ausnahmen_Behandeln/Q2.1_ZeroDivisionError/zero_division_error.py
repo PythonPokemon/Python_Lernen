@@ -2,7 +2,7 @@
 Teilen durch Null geht nicht!
 """
 
-#print(10/0)
+print(10/0)
 
 # ZeroDivisionError: Division durch Null nicht möglich.
 try:
