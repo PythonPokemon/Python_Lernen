@@ -8,7 +8,7 @@ Lösung:
 """
 
 try:
-    print()    # hier testen:-)
+    print(10/0)    # hier testen:-)
 
 except ValueError:
     print("❌ ValueError: Ungültiger Zahlenwert!")
@@ -40,4 +40,4 @@ except ImportError:
 except BaseException as e:
     print("⚠️  Allgemeine Fehlerbehandlung: Ein anderer Fehler ist aufgetreten, der hier nicht definiert wurde:", type(e).__name__)
 finally:
-    print("❌ und ich werde einfach immer ausgeführt, egal ob ein fehler passiert oder nicht!")
+    print("|-> und ich werde einfach immer ausgeführt, egal ob ein fehler passiert oder nicht!")
