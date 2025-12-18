@@ -5,7 +5,9 @@
 
 # -> das sind Beispiele für Python-Schlüsselwörter.
 
-#print(10/0)
+# aus/kommentieren Strg + #
+
+# print(10/0)
 
 
 
