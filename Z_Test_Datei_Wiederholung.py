@@ -5,3 +5,9 @@
 
 # -> das sind Beispiele für Python-Schlüsselwörter.
 
+#print(10/0)
+
+try:
+    print(10/0)
+except ZeroDivisionError:
+    print("Division durch null ist nicht erlaubt!")
