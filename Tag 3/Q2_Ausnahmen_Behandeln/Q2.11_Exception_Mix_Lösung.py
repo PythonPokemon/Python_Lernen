@@ -2,6 +2,10 @@
 Versuch jetzt dein gelerntes wissen abzufragen indem du jede exception 1x triggerst
 die beschreibungen sind teilweise kontextbezogen zu dieser aufgabe!
 
+Wichtig die Oberste Fehlerklasse == BaseException sollte zuletzt stehen.
+zuerst  == spezialisiert
+zuletzt == generalisiert
+
 zum testen in den print() befehl einsetzten Lösung:
 -------------------------------------------------------------------------------------
 Fehlerklassen       |   im print()  |               beschreibung                    |
@@ -67,3 +71,5 @@ except ImportError:
 
 except Exception as e:
     print("⚠️  Allgemeine Fehlerbehandlung: Ein anderer Fehler ist aufgetreten, der hier nicht definiert wurde:", type(e).__name__)
+finally:
+    print("❌ und ich werde einfach immer ausgeführt, egal ob ein fehler passiert oder nicht!")

@@ -2,7 +2,7 @@
 Teilen durch Null geht nicht!
 """
 
-print(10/0)
+#print(10/0)
 
 
 
@@ -14,5 +14,8 @@ try:
     ergebnis = 10 / 0   # teste 2, 5, 10 | wenn keine fehlerausgabe kommt, ist die Division durch Null nicht erfolgt           
 except ZeroDivisionError:
     print("❌ Fehler: Durch Null darf man nicht teilen!, dieser Fehler wird von ---> ", ZeroDivisionError, "<--- abgefangen.")
-
+except BaseException:
+    print("❌ ich versuch alles zu fangen")
+finally:
+    print("❌ und ich werde einfach immer ausgeführt, egal ob ein fehler passiert oder nicht!")
 
