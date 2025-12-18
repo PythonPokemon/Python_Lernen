@@ -7,6 +7,26 @@
 
 #print(10/0)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 try:
     print(10/0)
 except ZeroDivisionError:
