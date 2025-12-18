@@ -1,3 +1,9 @@
+"""
+Slicing von:
+Tupel
+Listen
+"""
+
 nums = [1,2,3,4,5,6,7,8,9,]
 nums2 = nums
 
