@@ -6,8 +6,7 @@
 
 
 
-
 try:
-    print("Hallo)
+    print("Hello World"
 except SyntaxError:
-    print("du hast leider die doppelten anfüfungszeichen am ende vergessen")
+print("ich fang dich")

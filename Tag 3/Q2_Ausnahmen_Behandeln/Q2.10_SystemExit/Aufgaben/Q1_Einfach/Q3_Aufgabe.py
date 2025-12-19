@@ -21,9 +21,3 @@ kontrolliert beenden.
 
 """
 
-counter = 0
-
-while True:
-    counter += 1
-    print(counter)
-    raise SystemExit

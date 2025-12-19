@@ -1,7 +1,7 @@
 """
 🟢 1. Einfache Aufgabe / Lösung!
 """
-
+counter = 0
 
 while True:
     try:

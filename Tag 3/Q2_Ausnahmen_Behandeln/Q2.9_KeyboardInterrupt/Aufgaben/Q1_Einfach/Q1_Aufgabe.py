@@ -10,6 +10,7 @@ soll der Fehler `KeyboardInterrupt` abgefangen werden und
 eine freundliche Meldung ausgegeben werden.
 Anschließend soll das Programm kontrolliert beendet werden.
 
+
 Beispiel Vorlage try / except:
 ---------------------------------------------------
 try:

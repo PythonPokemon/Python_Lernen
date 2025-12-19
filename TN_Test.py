@@ -1,11 +1,11 @@
-my_dict={"bald":"Urlaub","Frohe":"Weihnachten","guten":"Rutsch"}
+import time
 
-try:
-    print(my_dict["bald"])
-    print(my_dict["Urlaub"])
-except KeyError:
-    #freundlich:
-    print("Du Pfeife machst heute aber ganz schön viele Fehler! Was soll das?")
-    print("Fehler abgefangen: ein Key-Fehler!")
-else:
-    print("der Else-Block")
+count=0
+while True:
+    try:
+        count += 1
+        time.sleep(0.0000001)
+        print(count)
+    except KeyboardInterrupt:
+        print(f"Deine Zahl ist {count}.")
+        break

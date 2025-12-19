@@ -9,22 +9,19 @@ SystemExit ist eine spezielle Exception, die direkt von BaseException erbt
 und vom Python-Interpreter als Anweisung zum Beenden des Programms interpretiert wird.
 """
 
-# varinate 1 | auskommentieren zum testen
+# 1 variante
+
 # import sys
 
 counter = 0
 
-while True:
-    counter += 1
-    print(counter)
-    # sys.exit()
-
-
-# variante 2
-
-# counter = 0
-
 # while True:
 #     counter += 1
 #     print(counter)
-#     raise SystemExit    # raise löst die exception aus
+#     sys.exit()
+
+# variante 2
+while True:
+    counter += 1
+    print(counter)
+    raise SystemExit
