@@ -7,6 +7,17 @@
 
 # aus/kommentieren Strg + #
 
+
+
+
+
+
+
+
+
+
+
+
 # print(10/0)
 
 
