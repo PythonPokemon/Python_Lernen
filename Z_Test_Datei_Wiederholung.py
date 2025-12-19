@@ -44,10 +44,7 @@
 
 
 
-
-
-
-try:
-    print(10/0)
-except ZeroDivisionError:
-    print("Division durch null ist nicht erlaubt!")
+# try:
+#     print(10/0)
+# except ZeroDivisionError:
+#     print("Division durch null ist nicht erlaubt!")
