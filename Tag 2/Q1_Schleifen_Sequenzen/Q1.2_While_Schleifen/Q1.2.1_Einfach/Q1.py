@@ -11,3 +11,4 @@ zahl = 1
 while zahl <= 5:
     print(zahl)
     zahl += 1   # Erhöhe die Zahl um 1
+

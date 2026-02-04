@@ -8,3 +8,4 @@ for einzelneZahl in zahlenListe:
     if einzelneZahl == 3:
         break
     print(einzelneZahl)
+

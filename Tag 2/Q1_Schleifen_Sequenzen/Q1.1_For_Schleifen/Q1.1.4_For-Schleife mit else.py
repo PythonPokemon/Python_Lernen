@@ -7,3 +7,4 @@ for einzelneZahl in zahlenListe:
     print(einzelneZahl)
 else:
     print("Fertig")
+
