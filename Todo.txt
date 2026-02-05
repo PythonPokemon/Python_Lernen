@@ -14,3 +14,4 @@ Q4.4_sort(): einfache, mittlere, schwere, experten aufgaben erstellen in die ord
 Q5: einfache, mittlere, schwere, experten aufgaben erstellen in die ordner!
 ----------------------------------------------------------------------------------------------------------------
 
+entfernen spearate dateien
