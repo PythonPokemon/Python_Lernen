@@ -1,7 +1,8 @@
 """ 
+
 Beispiel: sorted() - Gibt eine neue sortierte Liste zurück (Original bleibt erhalten)
 """
-
+# Methoden bsp.
 def erstes_e_vorkommen_finden():
 
     text = "Regenschauer"
