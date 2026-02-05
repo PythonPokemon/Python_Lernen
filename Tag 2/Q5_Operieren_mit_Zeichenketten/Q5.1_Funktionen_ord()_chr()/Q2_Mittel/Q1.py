@@ -5,11 +5,13 @@ Was wird hier ausgegeben?
 """
 
 zeichen = "F"
-zahl = ord(zeichen)
-
-neu = chr(zahl + 2)
-
 print(zeichen)          # Ausgabe: F
+
+
+zahl = ord(zeichen)
 print(zahl)             # Ausgabe: 70
-print(neu)              # Ausgabe: H
-print(zeichen, zahl, neu)  # Ausgabe: F 70 H
+
+print(zahl + 1)        # Ausgabe: ?
+
+
+
