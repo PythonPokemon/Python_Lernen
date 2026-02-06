@@ -1,52 +1,9 @@
-"""
-zum nachlesen
-...
-"""
-print("Python funktioniert!")
-
-# krasser stuff
-def beispiel(a, b=2, *args, **kwargs):
-    print(a, b, args, kwargs)
-
-
-beispiel(1, 2, 7, 8, 9, farbe="rot, gelb", zahl=3.14, y=15)
-#--------------------------------------------------------------------------------------------------------
-""""
-| Index | Wert |
-| :---- | :--- |
-| 0     | 3    |
-| 1     | 1    |
-| 2     | -2   |
-| -1    | -2   |
-| -2    | 1    |
-| -3    | 3    |
-
-"""
-
-my_list = [ 3, 1,-2]
-
-print(my_list[my_list[-1]]) 
-#--------------------------------------------------------------------------------------------------------
-# function ohne parameter, aber mit variablen außerhalb der function
-argument_var_name = "Jakob"
-argument_var_Geburtsjahr = 1990, 10, 7
-
-def function():
-    print("hallo ich heiße: ", argument_var_name, "mein geburtsjahr ist: ", argument_var_Geburtsjahr)
-
-function()
 
 #--------------------------------------------------------------------------------------------------------
-# function mit integrierten variablen als parameter, die variablen liegen außerhalb der function
-# da die variablen als paramter/argument übernommen wurde, erwartet die function mindestens genauso viel paramter
-# beim functions aufruf
-argument_var_name1 = "Jakob"
-argument_var_Geburtsjahr1 = 1990, 10, 7
 
-def function(argument_var_name1, argument_var_Geburtsjahr1):
-    print("hallo ich heiße: ", argument_var_name1, "mein geburtsjahr ist: ", argument_var_Geburtsjahr1)
+#--------------------------------------------------------------------------------------------------------
 
-function(argument_var_name1, argument_var_Geburtsjahr1)
+#--------------------------------------------------------------------------------------------------------
 
 # shadowing / überschattung von variablen
 param1 = 123456789
