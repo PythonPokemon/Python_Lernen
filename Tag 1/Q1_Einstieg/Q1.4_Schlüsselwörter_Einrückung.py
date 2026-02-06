@@ -4,6 +4,26 @@
 # 'assert', 'del', 'raise', 'True', 'False', 'None' 
 
 # -> das sind Beispiele für Python-Schlüsselwörter.
+
+# and = 2   #keyword
+true = 1
+TRUE = 3
+# True = 4  #keyword
+FALSE = 5
+false = 6
+# False = 7 #keyword
+
+
+print(true)
+# print(and)
+print(TRUE)
+# print(True)
+print(FALSE)
+print(false)
+# Print(False)
+#------------------------------------------------------------------------------------------------
+
+
 # WICHTIG: Einrückung ist in Python zwingend erforderlich, um Blöcke zu markieren.
 
 alter = 18
