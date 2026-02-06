@@ -24,3 +24,14 @@ def beispiel(a, b=2, *args, **kwargs):
 
 
 beispiel(1, 2, 7, 8, 9, farbe="rot, gelb", zahl=3.14, y=15)
+
+#-----------------------------------------------------------------------------------------------------------------------------
+# nochmal mit anderen werten
+def instrucktion(a, b=2, *args, **kwargs):
+    print("positionalargument: ", a, "Default:", b, "beliebig viele args:", args, "beliebig viele kwargs:",  kwargs)
+
+instrucktion(1, 3, 4, 4, x=10, y=200)
+instrucktion(1.234, 0.99, 0.1, 0.2, x=0.987654321, y=999999999.999999999)
+instrucktion('a', 'b', 'auch wörter als nur 1 arg', 'viele', 'viele argumente', xyz='keyargs')
+instrucktion("aaaaa", "bbbbb", "ganz viele argumente", "noch mehr argumente", abcdefghijklmnopqrstuvwxyz=123456789, z=0.0001)
+instrucktion(0.1, 9, 'abcdefg', "hijklmnop", qrstuvwxyz=0.1, gent=122333444455555666666777777788888888999999999)

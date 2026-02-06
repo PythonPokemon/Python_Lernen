@@ -1,5 +1,5 @@
 # function mit integrierten variablen als parameter, die variablen liegen außerhalb der function
-# da die variablen als paramter/argument übernommen wurde, erwartet die function mindestens genauso viel paramter
+# da die variablen als paramter/argument übernommen wurden, erwartet die function mindestens genauso viele paramter
 # beim functions aufruf
 argument_var_name1 = "Jakob"
 argument_var_Geburtsjahr1 = 1990, 10, 7
