@@ -7,6 +7,7 @@ print("----------------------------------------------------------------------")
 for i in dictionary.items():
     print(i)
 
+
 # mit der .items() methode, als schlüsselwertpaar und entspackten tupels
 print("----------------------------------------------------------------------")
 for schlüssel, wert in dictionary.items():

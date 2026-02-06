@@ -165,65 +165,6 @@ print(list)
 tuple = (1,2,3,4)
 print(tuple)
 #--------------------------------------------------------------------------------------------------------
-# dictionarys
-dictionary = {"cat":"katze", "dog":"hund", "ape":"affe"}
-
-# standart abfrage
-for i in dictionary.keys():
-    print("Zeige den schlüssel:-->", i, "<---und den wert:--->", dictionary[i])
-
-# mit der .items() methode, als schlüsselwertpaar und verpackten tupels
-print("----------------------------------------------------------------------")
-for i in dictionary.items():
-    print(i)
-
-# mit der .items() methode, als schlüsselwertpaar und entspackten tupels
-print("----------------------------------------------------------------------")
-for schlüssel, wert in dictionary.items():
-    print("einzelne ausgaben der schlüssel:--->", schlüssel, "<---und werte:--->", wert)
-
-"""
-das ist equivalenz dazu:
-paar = ("x", "y")
-a, b = paar  # Entpacken
-
-print(a)  # x
-print(b)  # y
-"""
-
-# mit der .values() methode gibt man nur werte aus, keine schlüssel!
-print("----------------------------------------------------------------------")
-for i in dictionary.values():
-    print("ausgabe der werte:", i)
-#--------------------------------------------------------------------------------------------------------
-# dictionarys
-dictionary = {"cat":"katze", "dog":"hund", "ape":"affe"}
-
-# modifiezieren von werten
-print(dictionary["ape"])    # vor der modfizierung!
-dictionary["ape"] = "Monkey.D.Luffy"
-print(dictionary["ape"])    # nach der modifizierung!
-
-# hinzufügen neuer paare: key:value
-print(dictionary)           # davor!
-dictionary["Pirate King"] = "Gold.D.Roger" #  key[] = value
-print(dictionary)           # danach
-
-# oder hinzufügen über .update() methode
-dictionary.update({"Hokage":"Naruto"})
-print(dictionary)
-
-# removing keys | löscht auch automatisch die werte
-del dictionary["Hokage"]
-print(dictionary)
-
-#--------------------------------------------------------------------------------------------------------
-# dictionarys
-dictionary = {"cat":"katze", "dog":"hund", "ape":"affe"}
-
-print(dictionary) # bevor das letzte paar entfernt wird!
-dictionary.popitem()
-print(dictionary)   # nachdem entfern des letzten key:value pair
 #--------------------------------------------------------------------------------------------------------
 # and = 2   #keyword
 true = 1
@@ -345,7 +286,7 @@ print(fun(fun(2)) +1)   # +1 erzeugt TypeError
 def fun(inp=2, out=3):
     return inp * out
 
-print(fun(out=2))   # man darf 1x kwargs stehen lassen, aber nicht kwars, pos
+print(fun(out=2))   # man darf 1x kwargs stehen lassen, aber nicht kwargs, pos
 #--------------------------------------------------------------------------------------------------------
 def f(x):
     if x == 0:
@@ -389,14 +330,6 @@ foo.index(0) # valueError
 # foo.index[0] TypeError
 #--------------------------------------------------------------------------------------------------------
 
-# gibt die werte des dictionarys als variablen aus
-# bestimmt mit [0] den key-Index
-dct = {}
-dct['1'] = (1, 2)
-dct['2'] = (2, 1)
-
-for x in dct.keys():
-    print(dct[x][1], end="")
 #--------------------------------------------------------------------------------------------------------
 x = 3
 y = 2
