@@ -20,6 +20,8 @@ counter = 0
 #     print(counter)
 #     sys.exit()
 
+
+
 # variante 2
 while True:
     counter += 1

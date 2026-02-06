@@ -5,7 +5,7 @@ falls ein buchstabe eingegeben wird, wird dieser abgefangen und eine Fehlermeldu
 """
 
 try:
-    zahl = int(input("Gib eine zahl ein"))
+    zahl = int(input("Gib eine zahl ein: "))
     print("Deine zahl ist: ", zahl)
 except ValueError:
     print(" Fehler das war keine gültige zahl!")
