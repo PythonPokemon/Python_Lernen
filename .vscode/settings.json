@@ -1,8 +1,13 @@
 {
-    "json.schemas": [],
-    "launch": {
+    "editor.autoClosingBrackets": "always",
 
-        "editor.autoClosingBrackets": false,
-        "editor.suggestOnTriggerCharacters": false,
-    }
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.inlineSuggest.enabled": false,
+    "editor.acceptSuggestionOnEnter": "on"
 }

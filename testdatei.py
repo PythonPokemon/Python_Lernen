@@ -1,6 +1,14 @@
-# 'if', 'else', 'def', 'for', 'while', 'class', 'try', 'except', 'finally',
-# 'return', 'import', 'from', 'as', 'with', 'lambda', 'and', 'or', 'not',
-# 'in', 'is', 'pass', 'break', 'continue', 'yield', 'global', 'nonlocal',
-# 'assert', 'del', 'raise', 'True', 'False', 'None' 
+# Testdatei für die Wiederholung von Python-Schlüsselwörtern.
 
-# -> das sind Beispiele für Python-Schlüsselwörter.
+
+zahl = 10   #
+
+print(zahl)
+print(type(zahl))
+print("\n")
+print(float(zahl))
+
+kommazahl = 3.14
+print(kommazahl)
+print(type(kommazahl))
+print(int(kommazahl))

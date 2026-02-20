@@ -1,9 +1,11 @@
+# 'if', 'else', 'def', 'for', 'while', 'class', 'try', 'except', 'finally',
+# 'return', 'import', 'from', 'as', 'with', 'lambda', 'and', 'or', 'not',
+# 'in', 'is', 'pass', 'break', 'continue', 'yield', 'global', 'nonlocal',
+# 'assert', 'del', 'raise', 'True', 'False', 'None' 
 
-#--------------------------------------------------------------------------------------------------------
+# -> das sind Beispiele für Python-Schlüsselwörter.
 
-#-------------------------------------------
 
-#--------------------------------------------------------------------------------------------------------
 
 # else wird immer ausgeführt hier
 for i in range(1):
@@ -125,31 +127,6 @@ for v in range(2):
 print(my_list)
 #--------------------------------------------------------------------------------------------------------
 
-"""
-📘 Beispiel mit deinen Fehlern
-
-Du willst abfangen:
-
-TypeError
-ValueError
-ZeroDivisionError
-AttributeError
-"""
-
-try:
-    # Code, der Fehler machen kann
-    print(19/0)
-except (TypeError, ValueError, ZeroDivisionError, AttributeError):
-    print("Einer dieser Fehler ist passiert.")
-
-"""
-🧠 Warum funktionieren runde Klammern so?
-
-Ein Anfänger-Bild:
-
-Die Klammern sind wie eine Box voller erlaubter Fehler.
-Wenn einer dieser Fehler passiert → springt Python in den except-Block.
-"""
 #--------------------------------------------------------------------------------------------------------
 # die variable 'ch' soll nicht 'in' hi nach charakert suchen...
 # sondern das ist nur eine irreführung!
