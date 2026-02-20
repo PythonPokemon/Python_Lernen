@@ -1,6 +1,7 @@
-# Testdatei für die Wiederholung von Python-Schlüsselwörtern.
+# Testdatei für die Wiederholung von Themen
+# Step-by-Step
 
-# variante 1 | wenn man schon feste variablen mit werten hat!
+# variante 1 | wenn man schon im vorfeld variablen mit werten hat!
 zahl = 10   #
 
 print(zahl)
@@ -13,6 +14,6 @@ print(kommazahl)
 print(type(kommazahl))
 print(int(kommazahl))
 
-# variante 2 < direktumwandlung
+# variante 2 | direktumwandlung
 
 print(int(3.99))
