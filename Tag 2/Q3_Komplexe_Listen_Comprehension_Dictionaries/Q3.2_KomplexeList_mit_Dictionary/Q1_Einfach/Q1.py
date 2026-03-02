@@ -14,4 +14,4 @@ personen = [
 
 # Lösung
 for person in personen:
-    print(person["name"])
+    print(person["name"], person["alter"], person["volljährig"])
