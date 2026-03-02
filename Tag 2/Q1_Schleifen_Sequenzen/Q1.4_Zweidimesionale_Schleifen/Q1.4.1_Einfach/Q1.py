@@ -8,10 +8,11 @@
 
 # Aufgabe: Gib den Inhalt einer 2D-Liste aus (Matrix 2x2)
 
+# Spalte:    0  1 ..... <-->
 zahlen = [
-    [1, 2],   # Regal 0
-    [3, 4]    # Regal 1
-]
+            [1, 2],   # Zeile 0  
+            [3, 4]    # Zeile 1      
+]                     
 
 for i in range(len(zahlen)):             # Äußere Schleife → Zeilen (Regale)
     for j in range(len(zahlen[i])):      # Innere Schleife → Spalten (Fächer)
