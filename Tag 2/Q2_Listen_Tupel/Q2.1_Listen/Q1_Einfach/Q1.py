@@ -1,7 +1,3 @@
-list = [1,2,3,4]
-print(list)
-
-
 
 """
 🟢 EINFACHE AUFGABE – Zugriff auf Elemente einer Liste
@@ -15,4 +11,4 @@ print(list)
 # Gib das zweite Obst aus der Liste aus.
 
 obstListe = ["Apfel", "Banane", "Kirsche"]
-print(obstListe[1])  # Ausgabe: Banane
+print(obstListe[0])  # Ausgabe: Banane

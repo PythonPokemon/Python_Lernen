@@ -3,7 +3,7 @@
 # der typ in der variable wird dann in die liste automatisch übernommen
 variable = "abc"
 
-my_list = [variable for i in range(0, 3)]
+my_list = [variable for i in range(0, 5)]
 
 # exclusiv:-----------------------------
 # inklsuvi:---------------             |

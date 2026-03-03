@@ -9,5 +9,5 @@ print(tuple)
 tuple = (1,)
 var_tuple = (1)
 
-print(tuple)
-print(var_tuple)
+print(type(tuple))
+print(type(var_tuple))

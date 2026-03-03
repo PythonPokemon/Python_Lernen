@@ -12,5 +12,5 @@ Beispiel: sorted() - Gibt eine neue sortierte Liste zurück (Original bleibt erh
 text = "Regenschauer"
 position = text.rfind("e")  #  rfind() sucht von rechts nach links – zählt aber von links nach rechts
 
-print("Letztes 'e' bei Index:", position)   # 10
+print("Letztes 'e' bei Index:", position)   # 
 

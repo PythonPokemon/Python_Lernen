@@ -7,5 +7,5 @@ String in Wörter zerlegen
 
 satzText = "Ich lerne Python"
 woerterListe = satzText.split()        # Trennt den Satz bei Leerzeichen
-print(woerterListe)                    # Ausgabe: ['Ich', 'lerne', 'Python']
+print(woerterListe)                    # Ausgabe: 
 

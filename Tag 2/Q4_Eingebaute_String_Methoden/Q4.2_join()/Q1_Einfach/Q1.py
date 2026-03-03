@@ -6,5 +6,5 @@ Wörter zu einem Satz verbinden
 """
 
 woerter = ["Ich", "lerne", "Python",]
-satz = "-".join(woerter)           # Verbindet die Wörter mit einem Leerzeichen
+satz = "-".join(woerter)           # Verbindet die Wörter mit einem Bindestrich
 print(satz)                        # Ausgabe: Ich-lerne-Python

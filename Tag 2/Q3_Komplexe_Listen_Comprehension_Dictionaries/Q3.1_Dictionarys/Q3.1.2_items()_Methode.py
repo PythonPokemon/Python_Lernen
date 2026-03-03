@@ -10,6 +10,6 @@ for i in dictionary.items():
 
 # mit der .items() methode, als schlüsselwertpaar und entspackten tupels
 print("----------------------------------------------------------------------")
-for schlüssel, wert in dictionary.items():
-    print("einzelne ausgaben der schlüssel:--->", schlüssel, "<---und werte:--->", wert)
+for schlüssel in dictionary.items():
+    print("einzelne ausgaben der schlüssel:--->", schlüssel, "<---und werte:--->")
 

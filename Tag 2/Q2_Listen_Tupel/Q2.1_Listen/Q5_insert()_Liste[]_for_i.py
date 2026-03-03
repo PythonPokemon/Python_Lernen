@@ -6,4 +6,4 @@ def my_list(n):
         list.insert(0,i)    #  bei insert werden die elemente imme nach rechts verschoben
     return list
     
-print(my_list(5))
+print(my_list(3))
