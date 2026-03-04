@@ -15,7 +15,7 @@ del vals[1]
 print(vals)             # Ausgabe?
 
 print("---------------------------------------------------------------")
-#index    -4  -3 -2 -1
+#index    -4 -3 -2 -1
 my_list = [1, 2, 3, 4]
 print(my_list[-3:-2])   # Ausgabe?
 
@@ -45,7 +45,7 @@ print("---------------------------------------------------------------")
 
 variable = 1, 2, 3, 456, 8888, 1.12, [12], {1333}, ("hgv")
 
-print(variable)         # daraus wird eine tupel
+print(variable)         # Ausgabe?
 
 print("---------------------------------------------------------------, Modul 3 Quiz")
 #index revevrse
@@ -60,12 +60,12 @@ nums = []
 vals = nums
 
 vals.append(1)
-print(nums)
-print(vals)
+print(nums)         # Ausgabe?
+print(vals)         # Ausgabe?
 print(nums == vals) # werte gleich?
 print(nums is vals) # adresse gleich? | Referenz zum gleichen objekt?
-print(id(nums))
-print(id(vals))
+print(id(nums))     # Ausgabe?
+print(id(vals))     # Ausgabe?
 
 print("---------------------------------------------------------------")
 nums2 = []
@@ -99,14 +99,14 @@ while var5 < 6:
     var5 += 1
     if var5 % 2 == 0:
         continue
-    print("#")                      # Ausgabe: 3 sterne
+    print("#")                      # Ausgabe?
 
 print("---------------------------------------------------------------")
 
 nums6 = [1, 2, 3]
 vals6 = nums6 [-1:-2]
 
-print(vals6)                        #
+print(vals6)                        # Ausgabe?
 
 print("---------------------------------------------------------------")
 
@@ -124,9 +124,9 @@ print("---------------------------------------------------------------")
 print("kompliziert")
 my_list8 = [1, 2, 3]
 
-for v in range (len(my_list8)):     #range(3)
+for v in range (len(my_list8)):     # range(3)
     my_list8.insert(1, my_list8[v])
-print(len(my_list8))
+print(len(my_list8))                # Ausgabe?
 
 print("---------------------------------------------------------------")
 
@@ -136,11 +136,92 @@ my_list10 = []
 for v in my_list9:
     my_list10.insert(0, v)
 print(my_list10)            # insert schiebt die elemente nach rechts!
-
+                            # Ausgabe?
 print("---------------------------------------------------------------")
 
 dd = {"1": "0", "0": "1"}
 
 for x in dd.values():
-    print(x, end="")
+    print(x, end="")        # Ausgabe?
+
+print("---------------------------------------------------------------")
+
+#Index Reverse
+
+# start------------
+# ende----------  |
+#              |  |
+#         -3  -2 -1
+liste20 = [1, 2, 3,]
+x21 = liste20[-1:-2]
+
+print(x21)                  # Ausgabe?
+
+print("---------------------------------------------------------------Modultest 4")
+
+def fun(a=2, out=4):
+    return a * out
+
+print(fun(3))               # Ausgabe?
+
+print("---------------------------------------------------------------")
+
+tup = (1,) + (1,)
+tup = tup + tup
+print(len(tup))             # Ausgabe?
+
+print("---------------------------------------------------------------")
+
+def func(a, b):             # Achtung methodensignatur beachten!
+    return a ** b
+
+#print(func(2))             # Ausgabe?
+
+print("---------------------------------------------------------------")
+
+def fun(x):
+    if x % 2 == 0:
+        return 1        # erzeugt wenn true | Ausgabe: 1
+    else:
+        return          # erzeugt wenn false | Ausgabe: None
+
     
+# print(fun(fun(2)) +1)   # deshalb TypeError: None + 1  geht nicht!
+
+
+print("---------------------------------------------------------------")
+"""
+Python-Scope-Regel (LEGB-Regel)
+
+Python sucht Variablen in dieser Reihenfolge:
+1.Local (innerhalb der Funktion)
+2.Enclosing (äußere Funktion, bei verschachtelten Funktionen)
+3.Global (Modulebene)
+4.Built-in
+
+In deinem Fall:
+Lokal → gibt es kein var
+Enclosing → gibt es nicht
+Global → var = 1 gefunden ✔
+"""
+def any():
+    print(var +1, end='')
+
+var=1
+print(var)              # Ausgabe?
+any()                   # Ausgabe?
+print(var)              # Ausgabe?
+
+
+print("---------------------------------------------------------------")
+
+# iteratives Mapping
+#index          0               1            2
+dictionary = {'one': 'two', 'three':'one', 'two':'three'}   # länge:3
+v = dictionary['one']
+
+for k in range (len(dictionary)):
+    v = dictionary[v]
+
+print(v)
+
