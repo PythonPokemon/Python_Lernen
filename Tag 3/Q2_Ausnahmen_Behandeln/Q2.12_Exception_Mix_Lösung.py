@@ -5,7 +5,7 @@ die beschreibungen sind teilweise kontextbezogen zu dieser aufgabe!
 Wichtig die Oberste Fehlerklasse == BaseException sollte zuletzt stehen.
 zuerst  == spezialisiert
 zuletzt == generalisiert
-
+..
 zum testen in den print() befehl einsetzten Lösung:
 -------------------------------------------------------------------------------------
 Fehlerklassen       |   im print()  |               beschreibung                    |

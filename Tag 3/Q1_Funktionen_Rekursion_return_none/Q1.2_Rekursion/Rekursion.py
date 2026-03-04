@@ -16,4 +16,4 @@ def fakultaet(n):
         return 1
     return n * fakultaet(n - 1)
 
-print(fakultaet(4))  # Ergebnis: 120
+print(fakultaet(4))  # Ergebnis: ?

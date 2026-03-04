@@ -3,8 +3,7 @@
 Zufälliges Element aus einer Sequenz auswählen
 Funktion: random.choice()
 
-Frage?
-geht das modul random auch ohne die funktion choice?
+
 """
 
 import random

@@ -1,5 +1,5 @@
 
-# 🧠 Beispiel: Exception weitergeben (raise bei IndexError)
+# 🧠 Beispiel: Exception weitergeben (raise bei IndexError)...
 
 try:
     liste = [1, 2, 3]

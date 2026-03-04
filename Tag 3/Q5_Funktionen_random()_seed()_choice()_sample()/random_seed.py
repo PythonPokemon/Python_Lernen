@@ -11,7 +11,7 @@ wenn der startpunkt von bsp. 42 ignoriert wird und es irgendwo zwischen 0.1 - 1 
 import random
 
 def zufallszahlen_mit_seed():
-    random.seed(42)  # Startwert setzen
+    random.seed(42)  # Startzustand des Zufallszahlengenerators.
     print(random.random())  # Erster Wert
     print(random.random())  # Zweiter Wert
 

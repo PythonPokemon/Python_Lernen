@@ -8,6 +8,6 @@ def my_function():
     print("zugriff und manipulation in der methode auf globale variable: ", var)
 
 
-
+print(var)
 my_function()
 print(var)

@@ -3,5 +3,5 @@
 def verdopple(zahl):
     return zahl * 2  # gibt das Ergebnis zurück
 
-ergebnis = verdopple(5)
-print(ergebnis)  # 10
+ergebnis = verdopple(3)
+print(ergebnis)  # ?
