@@ -17,7 +17,7 @@ print(vals)             # Ausgabe?
 print("---------------------------------------------------------------")
 #index    -4 -3 -2 -1
 my_list = [1, 2, 3, 4]
-print(my_list[-4:-1])   # Ausgabe?
+print(my_list[-3:-2])   # Ausgabe?
 
 print("---------------------------------------------------------------")
 z = 10
@@ -181,12 +181,12 @@ print("---------------------------------------------------------------")
 
 def fun(x):
     if x % 2 == 0:
-        return 1        # erzeugt wenn true | Ausgabe: 1
+        return 1        
     else:
-        return          # erzeugt wenn false | Ausgabe: None
+        return          
 
     
-# print(fun(fun(2)) +1)   # deshalb TypeError: None + 1  geht nicht!
+# print(fun(fun(2)) +1)     # Ausgabe?
 
 
 print("---------------------------------------------------------------")
@@ -223,7 +223,7 @@ v = dictionary['one']
 for k in range (len(dictionary)):
     v = dictionary[v]
 
-print(v)
+print(v)                    # Ausgabe?
 
 print("---------------------------------------------------------------")
 
@@ -245,68 +245,18 @@ Da k ein Tupel ist, muss man mit k[0] auf das enthaltene Zeichen zugreifen, um n
 dictionary = {}
 my_list = ['a', 'b', 'c', 'd']
 
-for i in range(len(my_list) - 1):   # exclusiv
+for i in range(len(my_list) - 1):
     dictionary[my_list[i]] = (my_list[i], )
 
-#print(dictionary)   #{'a': ('a',), 'b': ('b',), 'c': ('c',)}
+#print(dictionary)          # Ausgabe?
 
 for i in sorted(dictionary.keys()):
     k = dictionary[i]
     # Insert your code here
-    print(k[0])     # gibt untereinander aus: abc                   == entpackte tupel werte
-    #print(k)        # gibt untereinander aus: ('a',)('b',)('c',)   == verpackte tupel werte
-    #print(k["0"])   # TypeError
-    #print(k['0'])   # TypeError
-
-print("--------------------------------------------------------------- ab hier neue!")
-
-foo = (1, 2, 3)
-
-foo.index(1) # output 1
-# foo.index(0) # valueError
-
-print(foo.index(0))
-
-print("---------------------------------------------------------------")
-
-nums = [1, 2, 3]
-vals = nums
-del vals[:]
-
-print(nums)
-print(vals)
-
-print("---------------------------------------------------------------")
-
-lst = [ i for i in range (-1, -2)]
-
-print(lst)  # Ausgabe
-
-print("---------------------------------------------------------------")
-
-def func(a, b):
-    return b **a
-
-print(func(b=2, 2)) # Ausgabe
-
-print("---------------------------------------------------------------")
-
-"""
-die erste schleife :
-for i in range (4) # sagt das die liste nur 4 elemente enthalten soll: [3, 3, 3, 3]
-angefangen mit 4-1 == 3
-
-die zweite schleife :
-for j in range (5) # sagt das 5 listen innerhalb der liste erzeugt werden sollen [3, 3, 3, 3], [3, 3, 3, 3], [3, 3, 3, 3], [3, 3, 3, 3], [3, 3, 3, 3]
-"""
-#Anzahl listen: 5 []                                             |              |             |             |             |
-#Anzahl elemente in der list: 4                             |  |  |  |
-#      :      4                   5
-t = [[4-1 for i in range (4)] for j in range (5)]   # t = [[3, 3, 3, 3], [3, 3, 3, 3], [3, 3, 3, 3], [3, 3, 3, 3], [3, 3, 3, 3]]
-s = 0
-for i in range(3):  # schleife läuft 3x von 0, 1, 2 bis 3 exclusiv
-    s += t[i][i]    # wird jeweils um das äußere i == 3 und das innere j == 3 dazu addiert und in s überschrieben
-print(s)
+    print(k[0])             # Ausgabe?
+    #print(k)               # Ausgabe?
+    #print(k["0"])          # Ausgabe?
+    #print(k['0'])          # Ausgabe?
 
 print("---------------------------------------------------------------")
 
@@ -314,11 +264,6 @@ print("---------------------------------------------------------------")
 
 print("---------------------------------------------------------------")
 
-print("---------------------------------------------------------------")
+
 
 print("---------------------------------------------------------------")
-
-print("---------------------------------------------------------------")
-
-print("---------------------------------------------------------------")
-
