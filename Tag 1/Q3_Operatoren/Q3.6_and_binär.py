@@ -8,7 +8,7 @@ log1 = i and j  # bedeutte alles über 0 ist true, also wird das letztere ausgeg
 print(log1)
 
 """
-fiktives bsp. da viablen freie werte zugewiesen wurden
+fiktives bsp. da variablen freie werte zugewiesen wurden
                 2er potenz
                 8 4 2 1
 Binär i ==6:    0 | | 0
