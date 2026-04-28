@@ -17,7 +17,7 @@ Binär j ==5:    0 | 0 |
 Ergebnis:       0 | 0 0     # für & and als zeichen: also: 0 + 4 + 0 + 0 == 4
 Ergebnis:       0 | | |     # für | or, da auch 1 und 1 richtig ist, also: 0 + 4 + 2 + 1 == 7
 """
-log2 = i & j    # bin#r operation
+log2 = i & j    # binär operation
 
 print(log2)
  

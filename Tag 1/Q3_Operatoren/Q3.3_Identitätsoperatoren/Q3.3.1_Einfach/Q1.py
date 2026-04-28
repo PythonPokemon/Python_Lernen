@@ -1,6 +1,7 @@
 """
 Thema: Identitätsoperatoren (is / is not)
 Ziel: Verständnis, wann zwei Variablen auf dasselbe Objekt im Speicher zeigen.
+
 Hinweis: Identität ≠ Gleichheit (is prüft Speicheradresse, == prüft Wert)
 -------------------------------------------------------------------------------
 💡 Lernfortschritt in der Datei:

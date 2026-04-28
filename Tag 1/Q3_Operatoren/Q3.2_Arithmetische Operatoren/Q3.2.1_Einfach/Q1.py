@@ -6,7 +6,7 @@ print(5 / 2)    # Division (float) → 2.5
 print(5 // 2)   # Ganzzahldivision → 2
 print(5 % 2)    # Modulo (Rest) → 1
 print(2 ** 3)   # Potenzieren → 8
-print("\n")
+print("\n")     # Zeilenumbruch
 
 
 # Aufgabe 1 (Einfach):
