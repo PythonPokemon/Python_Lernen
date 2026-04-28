@@ -12,10 +12,10 @@ Von links nach rechts: Spaltenindex → innere Schleife (<j>) → Fächer
 
 # Regal mit Zahlen
 zahlen = [
-    [1, 2],   # Regal 0
+    [1, 2],   # Regal 0 
     [3, 4]    # Regal 1
 ]
 
-for i in range(len(zahlen)):        # Äußere Schleife → Regale
+for i in range(len(zahlen)):        # Äußere Schleife → Regal,-Zeilen 0,1
     for j in range(len(zahlen[i])): # Innere Schleife → Fächer
         print("Regal", i, "Fach", j, "befindet sich Zahl:", zahlen[i][j])
