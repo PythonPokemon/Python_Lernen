@@ -2,11 +2,11 @@
 # dictionarys
 dictionary = {"cat":"katze", "dog":"hund", "ape":"affe"}
 
-print(dictionary) # vor der modifizierung!
+print(dictionary)   # vor der modifizierung!
 
-# oder hinzufügen über .update() methode
+# hinzufügen über .update() methode
 dictionary.update({"Hokage":"Naruto"})  # die neusten Key : Values werden rechts eingefügt
 
-print(dictionary)
+print(dictionary)   # nach der modifizierung!
 
 #--------------------------------------------------------------------------------------------------------

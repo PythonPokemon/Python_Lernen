@@ -1,11 +1,14 @@
 
 # dictionarys
 dictionary = {"cat":"katze", "dog":"hund", "ape":"affe"}
+print(dictionary,  " <--- dictionary, vor der änderung") 
 
-print(dictionary) # bevor das letzte paar entfernt wird!
-# dictionary.popitem()
-# dictionary.popitem()   #teste zum zweiten mal
-# dictionary.popitem()   #teste zum dritten mal
+dictionary.popitem()        # entfernt das letzte paar: Key/Value
+print(dictionary,  " <--- dictionary, nach der änderung")
 
-print(dictionary.popitem())   # nachdem entfern des letzten key:value pair
+print(dictionary.popitem()) # print(popitem()) zeigt die werte an, die popitem entfernt hat
+
+
+
+
 #--------------------------------------------------------------------------------------------------------

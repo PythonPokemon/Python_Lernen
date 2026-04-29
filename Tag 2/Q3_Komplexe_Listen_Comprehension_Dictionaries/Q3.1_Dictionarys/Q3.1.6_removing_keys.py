@@ -2,11 +2,11 @@
 # dictionarys
 dictionary = {"cat":"katze", "dog":"hund", "ape":"affe"}
 
-print(dictionary) # bevor das letzte paar entfernt wird!
+print(dictionary)   # vor dem löschen
 
 # removing keys | löscht auch automatisch die werte
 del dictionary["dog"]
 
-print(dictionary)
+print(dictionary)   # nach dem löschen
 
 #--------------------------------------------------------------------------------------------------------
