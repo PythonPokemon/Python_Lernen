@@ -6,6 +6,6 @@ String in Wörter zerlegen
 """
 
 satzText = "Ich lerne Python"
-woerterListe = satzText.split()        # Trennt den Satz bei Leerzeichen
+woerterListe = satzText.split()        # Trennt den Satz bei Leerzeichen mit komma,
 print(woerterListe)                    # Ausgabe: 
 

@@ -10,3 +10,5 @@ erste_position = wort.index("e")                   # Erstes 'e'
 zweite_position = wort.index("e", erste_position + 1)  # Suche ab nächstem Index
 print("Erstes e:", erste_position)
 print("Zweites e:", zweite_position)
+
+

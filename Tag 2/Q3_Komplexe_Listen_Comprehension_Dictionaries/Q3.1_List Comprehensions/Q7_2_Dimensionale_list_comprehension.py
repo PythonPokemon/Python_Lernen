@@ -32,7 +32,7 @@ s = 5 + 1 = 6
 --------------------------------------------------
 """
 
-t = [[3-i for i in range(3)] for j in range(3)]
+t = [[3-i for i in range(3)] for j in range(3)] # bei zweidimensionalen, muss die äußere[i] und die innerere[j] range  gleich lang sein, sonst error
 s = 0
 
 
