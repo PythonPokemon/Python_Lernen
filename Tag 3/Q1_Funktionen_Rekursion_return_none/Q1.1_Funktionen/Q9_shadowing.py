@@ -6,15 +6,13 @@ param3 = 0.123
 def message(param1, param2, param3):
     # variablen die innerhalb einer methode als parameter verwendet werden
     # werden mit den werten innerhalb der methode überschattet/verdeckt!
-    param1 = 1223334444
-    param2 = 3.14159265359
-    param3 = "string"
+    param1 = 111
+    param2 = 222
+    param3 = "333"
     print("ein text und 3 params == ", param1, param2, param3)
 
-message(1, 3.14, "string")
+message(param1=1, param2=2, param3=3)
 message(123, 456, 789)
-message(1.1, 2.22, 3.333)
-message("a", "bb", "ccc")
 
 
 print(param1)
