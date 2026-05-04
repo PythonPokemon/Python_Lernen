@@ -13,7 +13,7 @@ print("speicheradresse von nums:  ", id(nums))     # speicheradresse: 2574584822
 print("speicheradresse von nums2: ", id(nums2))    # speicheradresse: 2574584822272
 print("\n", "-------Slicing-------")
 
-vals = nums[0:5]                                # speicheradresse: 2574584704960
+vals = nums[-1:-5]                                # speicheradresse: 2574584704960
 print(vals)
 print("speicheradresse von vals",id(vals))
 

@@ -17,7 +17,7 @@ Immutability (Unveränderbarkeit von Strings)
 sprache = "Python"
 # sprache[0] = "J"  # ❌ Fehler! 'Strings' sind unveränderbar (immutable)
 # Stattdessen:
-sprache = "J" + sprache[0] 
+sprache = "J" + sprache[0] # operation, keine neue index zuweisung!
 
 print(sprache)  # 'JP'
 

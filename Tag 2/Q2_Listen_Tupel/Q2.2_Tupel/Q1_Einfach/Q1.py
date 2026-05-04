@@ -16,6 +16,8 @@ print(zahlenTupel[2])  # Ausgabe:
 x = zahlenTupel, zahlenTupel2
 y = zahlenTupel, zahlenTupel2
 print(x)
+
+x = y
 print( x == y)  # prüft ob werte identisch sind
 print( x is y)  # prüft ob referenz zum objekt identisch ist
 
