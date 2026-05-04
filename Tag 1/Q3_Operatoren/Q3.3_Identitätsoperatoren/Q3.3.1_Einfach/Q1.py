@@ -31,6 +31,7 @@ print("\n")
 c = [1, 2, 3]
 d = [1, 2, 3]
 
+
 print("Aufgabe 2:")
 print(c == d)      # True – Werte sind gleich
 print(c is d)      # False – aber im Speicher zwei verschiedene Objekte

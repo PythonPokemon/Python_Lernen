@@ -9,11 +9,12 @@ print("I\'m R2D2")  # mit dem escabe charakter \ kann man hinterher sonderzeiche
 print(R"I\'m R2D2") # Raw String | Das R sagt Python: „Nichts escapen, alles roh drucken.“
 
 print("abc", end="")            # 'end' == kein zeilenumbruch, nachdem print befehl!
-print("defg", "hijk", sep="-|-")  # 'sep' == zwischen den strings, separate zeichen!
+print("defg", "hijk", sep="---")  # 'sep' == zwischen den strings, separate zeichen!
 
 # f string == formated string
 distance = 234
-print(f"die strecke ist {distance}km lang.")
+test = 123
+print(f"die strecke ist {test} km lang.")
 
 
 Schuessel = 24
@@ -21,7 +22,7 @@ Reifendruck = 2.5
 Testperson = "Gustave"
 AGeb = "23.05.1995"
 
-print("Der Umfang der Schüssel ist", Schuessel,".", sep="")
+print("Der Umfang der Schüssel ist", Schuessel,".", sep="--")
 print("Der Reifendruck soll", Reifendruck,"Bar sein.")
 print("Der RName der Tesperson ist", Testperson,".", sep="")
 print("Der Geburtstag von Aline ist am ", AGeb,".", sep="")

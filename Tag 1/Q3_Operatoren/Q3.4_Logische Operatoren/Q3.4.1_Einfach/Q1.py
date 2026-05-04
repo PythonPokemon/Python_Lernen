@@ -15,8 +15,9 @@ Aufgabe 2: Erste Kombination von Vergleichsoperatoren mit logischen Operatoren.
 # Einfache logische Ausdrücke
 print("Aufgabe 1:")
 print(True and False)   # UND → False
-print(True or False)    # ODER → True
+print(1 or 1)    # ODER → True
 print(not True)         # NICHT → False
+print(1 ^ 1)    # XOR → True
 print()
 
 # --- Aufgabe 2 (leicht) -------------------------------------
