@@ -5,6 +5,6 @@ zahlenListe = [1, 2, 3]
 
 for einzelneZahl in zahlenListe:
     print(einzelneZahl)
-else:
+else:                           # else wird immer ausgeführt, indem fall
     print("Fertig")
 
