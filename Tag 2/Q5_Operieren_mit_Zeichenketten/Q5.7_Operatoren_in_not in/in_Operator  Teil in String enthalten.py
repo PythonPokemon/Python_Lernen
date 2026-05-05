@@ -6,9 +6,9 @@ Beispiel: "ist" in "Python ist toll"  # True
 
 satz = "Python ist toll"
 
-print("ist" in satz)      # True
-print("cool" in satz)     # False, da diese Zeichenkette nicht im Satz enthalten ist
-print("Python" in satz)   # True
-print("Python" not in satz)  # False | da "Python" im Satz enthalten ist
-print("Java" not in satz)  # True, da "Java" nicht im Satz enthalten ist
-print(" " in satz)        # True, da Leerzeichen im Satz enthalten sind
+print("ist" in satz)        # True  da enthalten
+print("cool" in satz)       # False da 'cool' nicht im Satz enthalten ist
+print("Python" in satz)     # True  da 'Python'     im Satz enthalten ist
+print("Python" not in satz) # False da "Python"     im Satz enthalten ist
+print("Java" not in satz)   # True  da "Java" nicht im Satz enthalten ist
+print(" " in satz)          # True da 'Leerzeichen' im Satz enthalten sind
