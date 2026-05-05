@@ -6,5 +6,5 @@ Wörter mit einem Trennzeichen verbinden
 """
 
 namen = ["Anna", "Ben", "Chris"]
-namen_kette = ", ".join(namen)     # Verbindet mit Komma und Leerzeichen
-print(namen_kette)                 # Ausgabe: Anna, Ben, Chris
+namen_kette = "---".join(namen)     # Verbindet mit 3x Bindestrichen
+print(namen_kette)                 # Ausgabe: Anna---Ben---Chris

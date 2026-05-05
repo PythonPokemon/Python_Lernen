@@ -7,4 +7,4 @@ Zahlenliste aufsteigend sortieren
 
 zahlen = [5, 3, 9, 1]
 zahlen.sort()                       # Sortiert die Liste in aufsteigender Reihenfolge
-print("Sortierte Liste:", zahlen)   # Ausgabe: 
+print("Sortierte Liste:", zahlen)   # Ausgabe: ?

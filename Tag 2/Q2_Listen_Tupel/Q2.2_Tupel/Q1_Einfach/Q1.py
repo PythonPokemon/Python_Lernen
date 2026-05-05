@@ -19,7 +19,7 @@ print(x)
 
 x = y
 print( x == y)  # prüft ob werte identisch sind
-print( x is y)  # prüft ob referenz zum objekt identisch ist
+print( x is y)  # 'is' prüft ob referenz zum objekt identisch ist
 
 print(id(x))
 print(id(y))
