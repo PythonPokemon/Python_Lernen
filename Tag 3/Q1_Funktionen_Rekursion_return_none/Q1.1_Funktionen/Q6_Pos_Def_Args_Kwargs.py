@@ -18,7 +18,7 @@ positional_arguments
 """
 
 
-# krasser stuff
+# easy grind:-)
 def beispiel(a, b=2, *args, **kwargs):
     print(a, b, args, kwargs)
 
