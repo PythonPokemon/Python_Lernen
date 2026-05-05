@@ -1,8 +1,8 @@
 # function mit integrierten variablen als parameter, die variablen liegen außerhalb der function
 # da die variablen als paramter/argument übernommen wurden, erwartet die function mindestens genauso viele paramter
 # beim functions aufruf
-argument_var_name1 = "Jakob"
-argument_var_Geburtsjahr1 = 1990, 10, 7
+argument_var_name1 = "Ali-G"
+argument_var_Geburtsjahr1 = "2001-01-21"
 
 def function(argument_var_name1, argument_var_Geburtsjahr1):
     print("hallo ich heiße: ", argument_var_name1, "mein geburtsjahr ist: ", argument_var_Geburtsjahr1)
