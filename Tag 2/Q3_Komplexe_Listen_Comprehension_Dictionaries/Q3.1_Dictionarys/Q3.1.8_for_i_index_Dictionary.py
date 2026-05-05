@@ -1,3 +1,6 @@
+"""
+Notizen:
+"""
 
 # gibt die werte des dictionarys als variablen aus.
 # bestimmt mit [0] den value-Index

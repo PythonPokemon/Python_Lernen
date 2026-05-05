@@ -1,5 +1,7 @@
+"""
+Notizen:
+"""
 
-# dictionarys
 dictionary = {"cat":"katze", "dog":"hund", "ape":"affe"}
 print(dictionary,  " <--- dictionary, vor der änderung") 
 
