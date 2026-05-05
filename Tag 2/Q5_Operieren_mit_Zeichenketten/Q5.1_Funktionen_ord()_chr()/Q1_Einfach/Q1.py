@@ -275,3 +275,4 @@ ascii_127 = 127
 # Beispiel: Ausgabe von Zeichen und ASCII-Code
 print(f"Char: '{zeichen_65}'| entspricht ASCII-Code: {ascii_65}")  # Ausgabe: 'A', 65
 print(f"Char: '{zeichen_97}'| entspricht ASCII-Code: {ascii_97}")  # Ausgabe: 'a', 97
+

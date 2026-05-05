@@ -1,4 +1,5 @@
 """ 
+vergleichsoperator == damit vergelicht man die werte miteinander 
 Vergleich mit Zahlen
 """
 
