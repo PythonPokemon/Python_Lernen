@@ -3,6 +3,9 @@
 Nach einem Teilwort suchen
 
 🧩 Lernziel: .find() funktioniert auch mit Teilstrings und findet deren Startposition im Text.
+
+ps.
+zählt auch die leerzeichen mit!
 """
 
 satz = "Ich lerne Python und Python macht Spaß"

@@ -3,6 +3,7 @@
 Den Index eines Buchstabens finden
 
 🧩 Lernziel: .find() gibt den Index des ersten gefundenen Zeichens zurück oder -1, wenn es nicht existiert.
+
 """
 
 wort = "Python"
