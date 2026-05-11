@@ -8,3 +8,7 @@ for einzelneZahl in zahlenListe:
     if einzelneZahl == 2:
         continue
     print(einzelneZahl)
+
+
+
+
