@@ -13,7 +13,7 @@ print("\n")     # Zeilenumbruch
 # Schreibe ein Programm, das zwei Zahlen einliest und dann Addition, Subtraktion, Multiplikation und Division ausgibt.
 print("\n")
 print("Aufgabe 1 (Einsteiger):")
-zahl1 = int(input("Gib die erste Zahl ein: "))
+zahl1 = int(input("Gib die erste Zahl ein: "))      # der return wert von der function .input() == string, deswegen typcasting
 zahl2 = int(input("Gib die zweite Zahl ein: "))
 
 print("Addition:", zahl1 + zahl2)
