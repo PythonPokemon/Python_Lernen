@@ -27,7 +27,6 @@ mehreren
 Zeilen
 """
 
-
 6. Welche Grunddatentypen gibt es in Python?
 int: ganze Zahl (z. B. 5)
 float: Kommazahl (z. B. 3.14)
@@ -39,7 +38,7 @@ bool: Wahrheitswert (True oder False)
 == ist der Vergleichsoperator (z. B. x == 5 prüft, ob x gleich 5 ist)
 
 8. Wie liest man Eingaben vom Benutzer ein?
-Mit der Funktion input(). Sie gibt immer einen String zurück.
+Mit der Funktion .input() Sie gibt immer einen String zurück.
 
 9. Was ist eine bedingte Anweisung (if-Anweisung)?
 Damit kann man Bedingungen prüfen und entsprechend Code ausführen, z. B.:
