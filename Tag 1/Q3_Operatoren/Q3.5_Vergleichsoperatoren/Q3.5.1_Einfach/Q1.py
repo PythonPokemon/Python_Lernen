@@ -27,7 +27,7 @@ alter = 18
 min_alter = 16
 max_alter = 65
 
-print(alter >= min_alter)  # True, da 18 >= 16
-print(alter <= max_alter)  # True, da 18 <= 65
+print(alter >= min_alter)  # True, da 18 größer ist als 16
+print(alter <= max_alter)  # True, da 18 kleiner ist als 65
 print(alter != 21)         # True, da 18 ungleich 21
 print()

@@ -14,7 +14,7 @@ print("defg", "hijk", sep="---")  # 'sep' == zwischen den strings, separate zeic
 # f string == formated string
 distance = 234
 test = 123
-print(f"die strecke ist {test} km lang.")
+print(f"die strecke ist {distance} km lang.")
 
 
 Schuessel = 24
@@ -22,7 +22,7 @@ Reifendruck = 2.5
 Testperson = "Gustave"
 AGeb = "23.05.1995"
 
-print("Der Umfang der Schüssel ist", Schuessel,".", sep="--")
+print("Der Umfang der Schüssel ist:", Schuessel, sep="--")
 print("Der Reifendruck soll", Reifendruck,"Bar sein.")
 print("Der RName der Tesperson ist", Testperson,".", sep="")
 print("Der Geburtstag von Aline ist am ", AGeb,".", sep="")
