@@ -16,8 +16,11 @@ a = [1, 2, 3]
 b = a   # alles was in a ist, wird auch in b sein (Referenz auf dasselbe Objekt)
 
 # überprüfung der speicheradresse indem man das pbejkt aufruft!
+print("Aufgabe 1 (Basis)")
 print(a)
 print(b)
+print(id(a))
+print(id(b))
 
 print("Aufgabe 1:")
 print(a is b)      # True – b ist nur eine andere Referenz auf dasselbe Objekt
