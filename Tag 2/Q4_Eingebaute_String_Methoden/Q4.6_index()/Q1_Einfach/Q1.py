@@ -8,7 +8,7 @@ Wenn das Zeichen nicht vorhanden ist, entsteht ein ValueError.
 
 wort = "Regenschauer"
 position = wort.index("r")        # Findet die Position des ersten 'R'
-print("Index von 'R':", position) # Ausgabe: 
+print("Index von 'r':", position) # Ausgabe: 
 
 
 # auch mit zahlen möglich

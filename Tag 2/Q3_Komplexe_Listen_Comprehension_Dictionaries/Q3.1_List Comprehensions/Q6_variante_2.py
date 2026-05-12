@@ -1,9 +1,9 @@
 # oder list comprehansion mit variablen namen 
 # als ausdruck
-# der typ in der variable wird dann in die liste automatisch übernommen
+# der Datentyp in der variable wird dann in die liste automatisch übernommen
 variable = "abc"
 
-my_list = [variable for i in range(0, 5)]
+my_list = [variable for i in range(0, 3)]
 
 # exclusiv:-----------------------------
 # inklsuvi:---------------             |
