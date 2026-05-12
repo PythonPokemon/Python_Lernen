@@ -9,12 +9,12 @@ nums2 = nums
 print(nums)
 print(nums2)
 
-print("speicheradresse von nums:  ", id(nums))     # speicheradresse: 2574584822272
-print("speicheradresse von nums2: ", id(nums2))    # speicheradresse: 2574584822272
+print("speicheradresse von nums:  ", id(nums))      # speicheradresse: 2574584822272
+print("speicheradresse von nums2: ", id(nums2))     # speicheradresse: 2574584822272
 print("\n", "-------Slicing-------")
 
-vals = nums[-1:-5]                                # speicheradresse: 2574584704960
-print(vals)
+vals = nums[-1:-5]                                  # speicheradresse: 2574584704960 | obacht! []
+print("Liste von 'vals', ist Leer!: ", vals)        # weil der startindex in der zukunft liegt und Endindex in der vergangenheit 
 print("speicheradresse von vals",id(vals))
 
 val2 = nums2[0:2]

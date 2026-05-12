@@ -1,1 +1,0 @@
-menge = {1, 2, 2,  3}               # set – Menge ohne Duplikate

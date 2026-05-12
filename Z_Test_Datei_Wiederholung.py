@@ -168,3 +168,42 @@ except:
     print("Booo!")
 #--------------------------------------------------------------------------------------------------------
 # ✅ ❌
+
+"""
+x = [0, [1, 2]]
+y = x[:]
+z = x.copy()
+y[0] = x.append(3)
+print(z)
+print(x)
+print(y)
+"""
+
+# x = [0, [1, 2]]
+# y = x[:]
+# print(y)
+
+# print(id(x))    # speicheradresse: 2092968374208
+# print(id(y))    # speicheradresse: 2092971220800
+
+# #y[0] = x.append(3)  # [0, [1, 2], 3] doch da x.append(3)  none zurück gibt wird aus y[0] == y[None] also == [None, [1, 2]]
+
+# # Unterschied!
+# y.append(3)         # [0, [1, 2], 3]
+
+# print(y)
+
+#---------------------------------------------------------------------------------------------------------------------------
+
+x = [0, [1, 2]]
+
+z = x.copy()    # wie [:]
+
+print(z)
+print(x)
+
+print(id(x))    # 2761518477248
+print(id(z))    # 2761520865088
+
+print(x is z)   # false
+print(x == z)   # true
