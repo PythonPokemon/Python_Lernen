@@ -5,7 +5,7 @@
 zahlenListe = [1, 2, 3, 4, 5]   # Zahlen in einer Liste
 
 for einzelneZahl in zahlenListe:
-    if einzelneZahl == 4:
+    if einzelneZahl == 4:       # exclusiv
         break
     print(einzelneZahl)
 
