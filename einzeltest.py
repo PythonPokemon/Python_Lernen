@@ -1,11 +1,6 @@
-# Index
-#      -4  -3 -2 -1
-var = [ 0, 1, 2, 3]
-
-var2 = var[-1:-3]
-
-print(id(var))
-print(id(var2))
-
-print(var)
-print(var2)
+# index;   0  1  2
+# count 3
+my_list = [9, 7, 8]
+for v in range(len(my_list)):
+    my_list.insert(1, my_list[v])
+print(my_list)
