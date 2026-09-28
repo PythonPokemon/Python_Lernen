@@ -15,7 +15,7 @@ Aufgabe 2: Vergleich von is und ==.
 a = [1, 2, 3]
 b = a   # alles was in a ist, wird auch in b sein (Referenz auf dasselbe Objekt)
 
-# überprüfung der speicheradresse indem man das pbejkt aufruft!
+# überprüfung der speicheradresse indem man das Objekt aufruft!
 print("Aufgabe 1 (Basis)")
 print(a)
 print(b)

@@ -1,4 +1,2 @@
-var = (1)
+print("Hello world")
 
-print(var)
-print(type(var))    # tupel (1,)
