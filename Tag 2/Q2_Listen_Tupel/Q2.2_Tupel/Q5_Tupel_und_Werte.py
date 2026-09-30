@@ -9,5 +9,11 @@ print(tuple)
 tuple = (1,)
 var_tuple = (1)
 
+
+# Anzeige des tatsächlichen wert
+print(tuple)
+print(var_tuple)
+
+# Anzeige des tatsächlichen Datentyp
 print(type(tuple))
 print(type(var_tuple))

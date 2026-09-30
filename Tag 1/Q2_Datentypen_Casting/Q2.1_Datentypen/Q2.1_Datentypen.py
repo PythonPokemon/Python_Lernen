@@ -9,7 +9,7 @@ wahrheitswert1 = True           # bool – Wahr
 wahrheitswert2 = False          # bool - Falsch
 liste = [1, 2, 3]               # list –  geordnete Sequenzen | veränderbare Liste
 tupel = (4, 5, 6)               # tuple – geordnete Sequenzen | unveränderbare Liste
-menge = {1, 2, 3}               # set – Menge ohne Duplikate
+menge = {1, 2, 2, 3}               # set – Menge ohne Duplikate
 dictionary = {"a": 1, "b": 2}   # dict – Schlüssel/Wert-Paare
 nichts = None                   # NoneType – "kein Wert"
 
@@ -31,4 +31,4 @@ print("\n")                     # zeilenumbruch
 print("ab hier beginnt die Praxis:-)")
 
 irgendeineZahl = 12344
-print(type(irgendeineZahl))
+print(type(irgendeineZahl))     # welcher Datentyp ist das?
