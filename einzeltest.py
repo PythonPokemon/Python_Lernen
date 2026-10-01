@@ -13,5 +13,18 @@
 
 '---------------------------------'
 
-my_list = [i for i in range(-1, 2)]     # Methodensignatur: list comprehension
+my_list = [i for i in range(-1, 2)]     # Methodensignatur: list comprehension das erste i muss angeben werden
 print(my_list)
+
+'---------------------------------'
+
+
+
+
+
+'---------------------------------'
+
+
+
+
+'---------------------------------'

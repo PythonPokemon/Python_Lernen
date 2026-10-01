@@ -1,6 +1,7 @@
 
 # dictionarys
 dictionary = {"cat":"katze", "dog":"hund", "ape":"affe"}
+print(dictionary)
 
 # modifiezieren von werten
 print(dictionary["ape"])                # ausgabe: vor der modfizierung!

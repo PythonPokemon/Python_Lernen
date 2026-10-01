@@ -1,4 +1,9 @@
 """
+Merke:
+---------------------------------------------------------------------------------------------------------
+popitem() → entfernt das letzte eingefügte Paar und gibt es zurück.
+Ist das Dictionary leer, löst popitem() einen KeyError aus.
+---------------------------------------------------------------------------------------------------------
 Notizen:
 """
 
@@ -8,7 +13,6 @@ print(dictionary,  " <--- dictionary, vor der änderung")
 dictionary.popitem()        # entfernt das letzte paar: Key/Value
 print(dictionary,  " <--- dictionary, nach der änderung")
 
-print(dictionary.popitem()) # print(popitem()) zeigt die werte an, die popitem entfernt hat
 
 
 

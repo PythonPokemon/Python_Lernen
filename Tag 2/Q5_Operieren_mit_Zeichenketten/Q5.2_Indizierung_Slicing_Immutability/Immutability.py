@@ -17,7 +17,7 @@ Immutability (Unveränderbarkeit von Strings)
 sprache = "Python"
 # sprache[0] = "J"  # ❌ Fehler! 'Strings' sind unveränderbar (immutable)
 # Stattdessen:
-sprache = "J" + sprache[0] # operation, keine neue index zuweisung!
+sprache = "J" + sprache[0] # operation, keine neue index zuweisung! == String Concatenation| Verkettung von Zeichenketten
 
 print(sprache)  # 'JP'
 

@@ -4,6 +4,7 @@ Index eines Buchstabens finden
 
 🧩 Lernziel: .index() gibt den Index des ersten Vorkommens eines Zeichens zurück.
 Wenn das Zeichen nicht vorhanden ist, entsteht ein ValueError.
+Index beginnt immer bei 0
 """
 
 wort = "Regenschauer"

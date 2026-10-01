@@ -1,4 +1,6 @@
 # dictionarys
+# Wert------------------
+# Schlüssel-----|      |
 dictionary = {"cat":"katze", "dog":"hund", "ape":"affe"}
 
 # standart abfrage

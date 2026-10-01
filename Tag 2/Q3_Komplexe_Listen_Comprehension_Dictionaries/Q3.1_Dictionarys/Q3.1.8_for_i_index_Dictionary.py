@@ -7,6 +7,7 @@ Notizen:
 
 dct = {}    # dictionary leer
 
+# Einfügen von Daten ind das Dictionary
 # Tupel
 # Index:    0  1
 #           |  |

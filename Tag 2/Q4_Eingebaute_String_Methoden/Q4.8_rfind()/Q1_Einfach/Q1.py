@@ -10,5 +10,5 @@
 text = "Regenschauer"
 position = text.rfind("e")  #  rfind() sucht von rechts nach links – zählt aber von links nach rechts
 
-print("Letztes 'e' bei Index:", position)   # 
+print("Letztes 'e' bei Index:", position)    
 
