@@ -1,20 +1,20 @@
-# shadowing / überschattung von variablen
-param1 = 123456789
-param2 = "aaaaaaaaaaaa"
-param3 = 0.123
+"""
+Shadowing / Überschattung von Variablen
 
-def message(param1, param2, param3):
-    # variablen die innerhalb einer methode als parameter verwendet werden
-    # werden mit den werten innerhalb der methode überschattet/verdeckt!
-    param1 = 111
-    param2 = 222
-    param3 = "333"
-    print("ein text und 3 params == ", param1, param2, param3)
+Wenn eine lokale Variable oder ein Funktionsparameter denselben Namen
+wie eine globale Variable hat, wird die globale Variable innerhalb
+des lokalen Gültigkeitsbereichs überschattet.
 
-message(param1=1, param2=2, param3=3)
-message(123, 456, 789)
+Die lokale Variable ist eigenständig. Änderungen an ihr verändern
+die globale Variable nicht.
+"""
 
 
-print(param1)
-print(param2)
-print(param3)
+param1 = 123456789  # globale Variable
+
+def message(param1):
+    param1 = 111     # lokale Variable wird neu zugewiesen
+    print(param1)
+
+message(1)           # Ausgabe: 111
+print(param1)        # Ausgabe: 123456789

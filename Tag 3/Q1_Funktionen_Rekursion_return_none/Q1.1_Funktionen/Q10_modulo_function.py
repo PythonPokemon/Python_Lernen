@@ -11,7 +11,7 @@ import webbrowser  # Modul zum Öffnen von Webseiten
 def strange_function(n):
     if n % 2 == 0:  # Prüft, ob n ohne Rest durch 2 teilbar ist
         print("Modulo 0 erkannt – starte Musik 🎵")
-        webbrowser.open("https://www.youtube.com/watch?v=-O8Y9X2Z2fA")
+        webbrowser.open("https://www.youtube.com/watch?v=UIuBtl4rz0E&list=PLE3nn1EOwjnsIj4iZChCJpTC3xhojSCZX&index=20")
         return True
 
 # Beispielaufrufe

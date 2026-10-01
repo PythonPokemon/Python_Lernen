@@ -1,13 +1,13 @@
 """ 
 Vergleich von Zeichenketten
 
-Beachte: Zeichenketten werden zeichenweise verglichen, nicht numerisch!
+Beachte: Zeichenketten werden zeichenweise vergliechen, nicht nummerisch!
 bsp.
 'A' == 65
 'a' == 97
 -----------------------------------------------------------------------
 Merksatz: 
-einfach alphabetisch hochzählen von startwert bis endwert:
+einfach alphabetisch die hochzählen von startwert bis endwert merken:
 
 'A' == 65 bis 'Z' == 90
 'a' == 97 bis 'z' == 122

@@ -1,15 +1,15 @@
 """
 Was bedeutet was und was hat priorität bei der initialisierung von Funktionen?
 
-Keyword Arguments (kwargs) 
+Keyword Arguments (kwargs) ---> als Datentyp Dictionary mit key:value
 haben immer Priorität vor Positional Arguments (args), da sie explizit benannt werden. 
 Wenn ein Argument sowohl als Positional Argument als auch als Keyword Argument übergeben wird, wird das Keyword Argument verwendet.
 
-Arguments (args) 
+Arguments (args) | ---> als Datentyp Tuple
 sind die normalen Argumente, die in der Reihenfolge übergeben werden, wie sie definiert sind.
 
 default_argument
- = 2 bedeutet, dass das Argument b einen Standardwert von 2 hat. 
+b = 2 bedeutet, dass das Argument b einen Standardwert von 2 hat. 
 Wenn die Funktion aufgerufen wird, ohne dass ein Wert für b angegeben wird, wird der Standardwert von 2 verwendet.
 
 positional_arguments
