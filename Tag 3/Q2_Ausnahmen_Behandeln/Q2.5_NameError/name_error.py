@@ -11,4 +11,4 @@ teste, ob diese Zeile funktioniert | wenn keine fehlerausgabe kommt, ist die Var
 try:
     print(var)
 except NameError:
-    print("variable wurde nicht definiert")
+    print("❌ variable wurde nicht definiert")

@@ -7,4 +7,4 @@ try:
     ergebnis = 5 + "ab"
     print(ergebnis)
 except TypeError:
-    print("falscher datentyp")
+    print("❌ falscher datentyp!")

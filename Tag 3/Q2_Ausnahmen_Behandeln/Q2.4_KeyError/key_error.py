@@ -15,4 +15,4 @@ try:
      daten = {"name": "Max", 1:2}
      print(daten[3])
 except KeyError:
-     print("fehler abgefangen:-)")
+     print("❌ Es gibt nur 2 Schlüssel! fehler abgefangen:-)")

@@ -13,6 +13,6 @@ while True:
     try:
         counter +=1
         print(counter)
-    except KeyboardInterrupt:
+    except KeyboardInterrupt:           # Unterbricht die Entlosschleife in der Konsole!
         print("wurde abgefangen")
         break

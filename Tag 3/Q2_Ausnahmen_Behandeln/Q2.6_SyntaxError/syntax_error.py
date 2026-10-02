@@ -9,4 +9,4 @@
 try:
     print("Hello World"
 except SyntaxError:
-print("ich fang dich")
+print("❌ ich fang dich")
