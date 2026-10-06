@@ -1,4 +1,4 @@
-# Python ist eine sogenannte "höhere Programmiersprache".
+# Python ist eine sogenannte "höhere Programmiersprache". Weit weg von der Hardware
 # Sie ist leicht zu lesen und zu schreiben.
 var = 1
 var2 = 2
