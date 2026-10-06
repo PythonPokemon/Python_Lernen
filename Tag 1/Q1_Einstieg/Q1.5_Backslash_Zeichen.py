@@ -22,7 +22,7 @@ Durch \" wird das Anführungszeichen als normales Zeichen interpretiert.
 Merksatz:
 \ ist das Escape-Zeichen. Es verändert die Bedeutung des Zeichens, das direkt danach kommt.
 
-Beispiele:
+Weitere Einsatzmöglichkeiten mit dem Escape Charakter:
 
 \n   # Zeilenumbruch
 \t   # Tabulator
