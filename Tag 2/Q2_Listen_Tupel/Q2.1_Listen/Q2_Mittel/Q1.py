@@ -25,4 +25,4 @@ tiere.append("Papagei")    # Neues Element am Ende hinzufügen
 # tiere.remove("Maus")       # Element entfernen
 # tiere[0] = "Hamster"       # Erstes Element ersetzen
 
-print(tiere)  # ['Hamster', 'Katze', 'Papagei']
+print(tiere)  # ["Hund", "Katze", "Maus", 'Papagei']

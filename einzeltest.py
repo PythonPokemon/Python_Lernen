@@ -1,15 +1,15 @@
 'Objektreferenz'
 '---------------------------------'
-nums = []
-vals = nums
-vals.append(1)
-vals.append(3)
-vals.append(777)
+# nums = []
+# vals = nums
+# vals.append(1)
+# vals.append(3)
+# vals.append(777)
 
-print(vals)
-print('------')
-print(id(vals))
-print(id(nums))
+# print(vals)
+# print('------')
+# print(id(vals))
+# print(id(nums))
 
 '---------------------------------'
 
@@ -29,8 +29,11 @@ print(id(nums))
 
 
 '---------------------------------'
+x = input('Gib eine zahl ein, für x: ')             # Rückgabewert == String
+y = int (input('Gib eine Zahl ein, für y: '))
 
+print(type(x))
+print(type(y))
 
-
-
+print(x * y)
 '---------------------------------'
