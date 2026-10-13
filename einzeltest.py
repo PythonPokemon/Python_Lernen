@@ -29,11 +29,36 @@
 
 
 '---------------------------------'
-x = input('Gib eine zahl ein, für x: ')             # Rückgabewert == String
-y = int (input('Gib eine Zahl ein, für y: '))
+# x = input('Gib eine zahl ein, für x: ')             # Rückgabewert == String
+# y = int (input('Gib eine Zahl ein, für y: '))
 
-print(type(x))
-print(type(y))
+# print(type(x))
+# print(type(y))
 
-print(x * y)
+# print(x * y)
 '---------------------------------'
+
+# nums = []
+# vals = nums [:]
+
+# print(id(nums))
+# print(id(vals))
+
+
+
+
+
+value = input("0")
+print(10/value)
+
+
+
+
+
+
+
+
+
+
+
+
